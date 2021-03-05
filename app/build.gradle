@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 30
     buildToolsVersion '25.0.2'
 
     defaultConfig {
         applicationId 'com.dogbone0714.nuuhelper'
         minSdkVersion 16
-        targetSdkVersion 23
+        targetSdkVersion 30
         versionCode 12
         versionName "3.3"
         resConfigs "zh"

@@ -63,7 +63,7 @@ public class FileTools {
     public static String getshare(Context context, String name) {
         SharedPreferences sp = context.getSharedPreferences("config", Context.MODE_PRIVATE);
         String result = sp.getString(name, "");
-        System.out.println("得到share 数据成功:" + result);
+        System.out.println("得到share 數據成功:" + result);
         return result;
     }
 
@@ -89,7 +89,7 @@ public class FileTools {
         try {
             SharedPreferences sp = Application.getINSTANCE().getSharedPreferences("config", Context.MODE_PRIVATE);
             int result = sp.getInt(name, 404);
-            System.out.println("得到share 数据成功:" + result);
+            System.out.println("得到share 數據成功:" + result);
             return result;
         } catch (Exception e) {
             e.printStackTrace();
