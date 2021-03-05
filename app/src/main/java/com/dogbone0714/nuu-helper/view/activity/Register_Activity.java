@@ -235,7 +235,7 @@ public class Register_Activity extends AppCompatActivity implements IRegister_Ac
             case R.id.tv_register_yhxy:
                 Intent intent = new Intent(context,WebView_Activity.class);
                 intent.putExtra("title","用户协议");
-                intent.putExtra("url","file:///android_asset/fuwuxieyi.html");
+                intent.putExtra("url","file:///android_asset/servicepolicy.html");
                 startActivity(intent);
                 break;
             case R.id.btn_register:
