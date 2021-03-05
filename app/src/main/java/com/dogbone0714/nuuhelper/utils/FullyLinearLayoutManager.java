@@ -1,4 +1,4 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by longer on 2017/4/12.
+ * Created by Dogbone0714 on 2021.03.06
  */
 
 public class FullyLinearLayoutManager extends LinearLayoutManager {

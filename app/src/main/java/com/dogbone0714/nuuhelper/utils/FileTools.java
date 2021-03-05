@@ -1,4 +1,4 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,7 +10,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-import com.longer.school.Application;
+import com.dogbone0714.nuuhelper.Application;
 
 public class FileTools {
 

@@ -1,4 +1,4 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 import android.content.Context;
 import android.support.design.widget.FloatingActionButton;
@@ -10,7 +10,7 @@ import android.view.animation.Interpolator;
 import android.view.animation.ScaleAnimation;
 
 import com.gordonwong.materialsheetfab.AnimatedFab;
-import com.longer.school.R;
+import com.dogbone0714.nuuhelper.R;
 
 /**
  * Created by Gordon Wong on 7/17/2015.
