@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.longer.school">
+    package="com.dogbone0714.nuu-helper">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -19,10 +19,10 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <permission
-        android:name="com.longer.school.permission.MIPUSH_RECEIVE"
+        android:name="com.dogbone0714.nuu-helper.permission.MIPUSH_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.longer.school.permission.MIPUSH_RECEIVE" />
+    <uses-permission android:name="com.dogbone0714.nuu-helper.permission.MIPUSH_RECEIVE" />
 
     <application
         android:name=".Application"
@@ -96,21 +96,21 @@
         <activity android:name=".view.activity.WebView_Activity"/>
 
 
-        <!-- alipay sdk begin -->
-
-        <activity
-            android:name="com.alipay.sdk.app.H5PayActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
-            android:exported="false"
-            android:screenOrientation="behind"
-            android:windowSoftInputMode="adjustResize|stateHidden" />
-        <activity
-            android:name="com.alipay.sdk.app.H5AuthActivity"
-            android:configChanges="orientation|keyboardHidden|navigation"
-            android:exported="false"
-            android:screenOrientation="behind"
-            android:windowSoftInputMode="adjustResize|stateHidden" />
-
+         <!-- alipay sdk begin -->
+            <!--
+                <activity
+                    android:name="com.alipay.sdk.app.H5PayActivity"
+                    android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+                    android:exported="false"
+                    android:screenOrientation="behind"
+                    android:windowSoftInputMode="adjustResize|stateHidden" />
+                <activity
+                    android:name="com.alipay.sdk.app.H5AuthActivity"
+                    android:configChanges="orientation|keyboardHidden|navigation"
+                    android:exported="false"
+                    android:screenOrientation="behind"
+                    android:windowSoftInputMode="adjustResize|stateHidden" />
+                -->
         <!-- alipay sdk end -->
 
 
@@ -167,26 +167,7 @@
         <!-- 小米推送 end -->
 
 
-         <!--QQ登录-->
-         <activity
-         android:name="com.tencent.tauth.AuthActivity"
-         android:launchMode="singleTask"
-         android:noHistory="true">
-         <intent-filter>
-         <action android:name="android.intent.action.VIEW" />
 
-
-         <category android:name="android.intent.category.DEFAULT" />
-         <category android:name="android.intent.category.BROWSABLE" />
-
-
-         <data android:scheme="" />
-         </intent-filter>
-         </activity>
-         <activity
-         android:name="com.tencent.connect.common.AssistActivity"
-         android:configChanges="orientation|keyboardHidden|screenSize"
-         android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
     </application>
 
