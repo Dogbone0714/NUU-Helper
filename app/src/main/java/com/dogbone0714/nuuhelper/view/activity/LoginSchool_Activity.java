@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -17,18 +17,17 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.longer.school.Application;
-import com.longer.school.modle.bean.User;
-import com.longer.school.R;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.LoginService;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.LoginService;
 
-import butterknife.ButterKnife;
+/* import butterknife.ButterKnife;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
-import cn.bmob.v3.listener.SaveListener;
+import cn.bmob.v3.listener.SaveListener;  */
 
 public class LoginSchool_Activity extends AppCompatActivity {
 
