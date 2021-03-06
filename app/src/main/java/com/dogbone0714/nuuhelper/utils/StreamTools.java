@@ -1,13 +1,10 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 import android.content.Context;
 import android.util.Log;
 
-
 import com.blankj.utilcode.utils.TimeUtils;
-import com.longer.school.modle.bean.CardClass;
 import com.longer.school.modle.bean.CourseClass;
-import com.longer.school.modle.bean.Love;
 import com.longer.school.modle.bean.Score2Class;
 import com.longer.school.modle.bean.ScoreClass;
 import com.longer.school.view.activity.MainActivity;

@@ -1,16 +1,16 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
+import com.google.android.material.appbar.AppBarLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.longer.school.R;
+import com.dogbone0714.nuuhelper.R;
 
 /**
  * longer
@@ -52,7 +52,7 @@ public class ScrollingFABBehavior extends CoordinatorLayout.Behavior<FloatingAct
 
     private int getToolbarHeight(Context context) {
         TypedValue tv = new TypedValue();
-        int actionBarHeight = android.support.v7.appcompat.R.attr.actionBarSize;
+        int actionBarHeight = androidx.appcompat.R.attr.actionBarSize;
         if (context.getTheme().resolveAttribute(R.attr.actionBarSize, tv, true)) {
             actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data,
                     context.getResources().getDisplayMetrics());

@@ -1,7 +1,7 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 
-import com.longer.school.Application;
+import com.dogbone0714.nuuhelper.Application;
 
 /**
  * Created by longer on 2016/7/29.

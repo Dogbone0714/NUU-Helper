@@ -1,12 +1,12 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
+
+import android.content.Context;
+import android.util.Log;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
-import android.content.Context;
-import android.util.Log;
 
 public class TimeTools {
 

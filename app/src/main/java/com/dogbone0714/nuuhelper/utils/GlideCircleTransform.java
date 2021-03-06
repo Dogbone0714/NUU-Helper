@@ -1,4 +1,4 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -7,8 +7,12 @@ import android.graphics.BitmapShader;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
+import androidx.annotation.NonNull;
+
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
+
+import java.security.MessageDigest;
 
 /**
  * Glide 的圆角图片加载类，，，还可以设置带白边
@@ -27,17 +31,13 @@ import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
  *
  *
  *
- * Created by longer on 2017/5/2.
+ * Created by Dogbone0714 on 2021.03.06.
  */
 
 public  class GlideCircleTransform extends BitmapTransformation {
 
     private Paint mBorderPaint;
     private float mBorderWidth;
-
-    public GlideCircleTransform(Context context) {
-        super(context);
-    }
 
     public GlideCircleTransform(Context context, int borderWidth, int borderColor) {
         super(context);
@@ -82,7 +82,7 @@ public  class GlideCircleTransform extends BitmapTransformation {
     }
 
     @Override
-    public String getId() {
-        return getClass().getName();
+    public void updateDiskCacheKey(@NonNull MessageDigest messageDigest) {
+
     }
 }

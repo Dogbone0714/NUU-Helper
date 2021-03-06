@@ -1,24 +1,24 @@
-package com.longer.school.presenter;
+package com.dogbone0714.nuuhelper.presenter;
 
 
 import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
 
-import com.longer.school.Application;
-import com.longer.school.modle.bean.Good;
-import com.longer.school.modle.bean.Love;
-import com.longer.school.modle.bean.LoveComment;
-import com.longer.school.modle.bean.PicHeadTip;
-import com.longer.school.modle.bean.SchoolMes;
-import com.longer.school.modle.biz.GoodBiz;
-import com.longer.school.modle.biz.LoveBiz;
-import com.longer.school.modle.biz.LoveCommentBiz;
-import com.longer.school.modle.biz.PicHeadTipBiz;
-import com.longer.school.modle.biz.SchoolMesBiz;
-import com.longer.school.utils.LoginService;
-import com.longer.school.utils.PublicTools;
-import com.longer.school.utils.Toast;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.Good;
+import com.dogbone0714.nuuhelper.modle.bean.Love;
+import com.dogbone0714.nuuhelper.modle.bean.LoveComment;
+import com.dogbone0714.nuuhelper.modle.bean.PicHeadTip;
+import com.dogbone0714.nuuhelper.modle.bean.SchoolMes;
+import com.dogbone0714.nuuhelper.modle.biz.GoodBiz;
+import com.dogbone0714.nuuhelper.modle.biz.LoveBiz;
+import com.dogbone0714.nuuhelper.modle.biz.LoveCommentBiz;
+import com.dogbone0714.nuuhelper.modle.biz.PicHeadTipBiz;
+import com.dogbone0714.nuuhelper.modle.biz.SchoolMesBiz;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+import com.dogbone0714.nuuhelper.utils.PublicTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
 import com.longer.school.view.iview.IFragment_MenuView;
 import com.longer.school.view.iview.ILoveOne_ActivityView;
 

@@ -1,4 +1,4 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 
 import android.content.ClipboardManager;
@@ -9,8 +9,7 @@ import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
-import com.longer.school.Application;
-import com.longer.school.Config;
+import com.dogbone0714.nuuhelper.Application;
 
 /**
  * Created by longer on 2017/3/17.
@@ -35,7 +34,7 @@ public class PublicTools {
     public static void shareapp(Context context) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_SEND);
-        intent.putExtra(Intent.EXTRA_TEXT, "成都工业学院App\n" + Config.pre);
+        intent.putExtra(Intent.EXTRA_TEXT, "聯大助手App\n" );
         intent.setType("text/plain");
         context.startActivity(Intent.createChooser(intent, "分享到"));
     }
@@ -52,7 +51,7 @@ public class PublicTools {
             context.startActivity(marketIntent);
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.show("发现你没有应用商店啊");
+            Toast.show("發現你沒有應用商店阿");
         }
     }
 
@@ -73,19 +72,7 @@ public class PublicTools {
      * @param key 由官网生成的key
      * @return 返回true表示呼起手Q成功，返回fals表示呼起失败
      ******************/
-    public static boolean joinQQGroup(Context context, String key) {
-        Intent intent = new Intent();
-        intent.setData(Uri.parse("mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26k%3D" + key));
-        // 此Flag可根据具体产品需要自定义，如设置，则在加群界面按返回，返回手Q主界面，不设置，按返回会返回到呼起产品界面    //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-        try {
-            context.startActivity(intent);
-            return true;
-        } catch (Exception e) {
-            // 未安装手Q或安装的版本不支持
-            e.printStackTrace();
-            return false;
-        }
-    }
+
 
     /**
      * 复制文字到剪切板
@@ -95,7 +82,7 @@ public class PublicTools {
     public static void copy(String str) {
         ClipboardManager cm = (ClipboardManager) Application.getINSTANCE().getSystemService(Context.CLIPBOARD_SERVICE);
         cm.setText(str);
-        Toast.show("复制到剪切板");
+        Toast.show("複製到剪貼簿");
     }
 
     /**

@@ -1,4 +1,4 @@
-package com.longer.school.utils;
+package com.dogbone0714.nuuhelper.utils;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -9,8 +9,6 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
-import android.widget.ImageView;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -21,7 +19,7 @@ import java.util.Queue;
  *
  * @author clifford
  */
-public class PinchImageView extends ImageView  {
+public class PinchImageView extends androidx.appcompat.widget.AppCompatImageView  {
 
 
     ////////////////////////////////配置参数////////////////////////////////
