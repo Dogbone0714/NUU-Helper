@@ -19,7 +19,6 @@ import android.widget.TextView;
 import com.blankj.utilcode.utils.TimeUtils;
 import com.longer.school.Application;
 import com.longer.school.R;
-import com.longer.school.adapter.LoveCommentAdapter;
 import com.longer.school.modle.bean.Love;
 import com.longer.school.modle.bean.LoveComment;
 import com.longer.school.presenter.LoveOneActivityPresenter;
