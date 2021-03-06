@@ -55,11 +55,11 @@ public class LoginSchool_Activity extends AppCompatActivity {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case progress:
-                    tv_jiazai.setText("已经加载  " + i + "%");
+                    tv_jiazai.setText("已经加載  " + i + "%");
                     break;
                 case log_success:
                     pg.dismiss();// 对话框消失
-                    Toast.makeText(context, "信息门户网登录成功  ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "恭喜您登入成功  ", Toast.LENGTH_SHORT).show();
                     tv_jiazai.setVisibility(View.VISIBLE);
                     pb.setVisibility(View.VISIBLE);
                     break;
@@ -68,18 +68,18 @@ public class LoginSchool_Activity extends AppCompatActivity {
                     break;
                 case log_false:
                     pg.dismiss();// 对话框消失
-                    Toast.makeText(context, "登录失败", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "登入失敗", Toast.LENGTH_SHORT).show();
                     break;
                 case log_error:
                     pg.dismiss();// 对话框消失
-                    Toast.makeText(context, "亲，密码错咯~", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "嗨嗨~密碼錯誤", Toast.LENGTH_SHORT).show();
                     break;
-                case bmob_register:
+                /* case bmob_register:
                     Toast.makeText(context, "哎呀~注册失败了", Toast.LENGTH_SHORT).show();
                     break;
                 case bmob_login:
                     Toast.makeText(context, "哎呀~登录失败了", Toast.LENGTH_SHORT).show();
-                    break;
+                    break; */
             }
         }
     };
@@ -126,7 +126,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
         setTheme(Application.theme);
         setContentView(R.layout.activity_login_school);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("登录");
+        toolbar.setTitle("登入");
         setSupportActionBar(toolbar);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -152,13 +152,13 @@ public class LoginSchool_Activity extends AppCompatActivity {
         String str = FileTools.getshareString("login");
         if ("true".equals(str)) {// 表示已经成功登录过
             tv_zhuangtai.setVisibility(View.VISIBLE);
-            String string = FileTools.getshareString("name") + "  已登录";
+            String string = FileTools.getshareString("name") + "  已登入";
             tv_zhuangtai.setText(string);
             et_username.setText(FileTools.getshareString("username"));
             et_username.setEnabled(false);
             et_password.setText(FileTools.getshareString("password"));
             et_password.setEnabled(false);
-            but_login1.setText("注销");
+            but_login1.setText("註銷");
         }
 
 //        AlertDialog.Builder builder = new AlertDialog.Builder(context);
@@ -180,20 +180,20 @@ public class LoginSchool_Activity extends AppCompatActivity {
     }
 
 
-    class RefreshListener implements View.OnClickListener {
+    /* class RefreshListener implements View.OnClickListener {
         public void onClick(View v) {
             if ("注销".equals(but_login1.getText())) {
                 FileTools.saveshareString("login", "false");
                 BmobUser.logOut();
                 et_username.setText("");
                 et_password.setText("");
-                but_login1.setText("登录");
+                but_login1.setText("登入");
                 et_username.setEnabled(true);
                 et_password.setEnabled(true);
-            } else if ("登录".equals(but_login1.getText())) {
+            } else if ("登入".equals(but_login1.getText())) {
                 login();
             }
-        }
+        } */
 
         //登录
         private void login() {
@@ -204,7 +204,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
             final String username = et_username.getText().toString().trim();
             final String password = et_password.getText().toString().trim();
             pg = new ProgressDialog(context);
-            pg.setMessage("登录中...");
+            pg.setMessage("登入中...");
             pg.setCanceledOnTouchOutside(false);// 点击对话框以外是否消失
             pg.show();
 
@@ -266,11 +266,11 @@ public class LoginSchool_Activity extends AppCompatActivity {
                 LoginService.getstudent(context, username, password);// 保存学生的基本信息到share
 
                 //在bmob云上注册,注册成功之后自动登录
-                User bu = new User();
-                bu.setUsername(username);
-                bu.setPassword(password);
+                //User bu = new User();
+                //bu.setUsername(username);
+                //bu.setPassword(password);
                 //对于得到的电话号码进行判断，如果格式不正确则不设置号码
-                String phonenum = FileTools.getshareString("tel");
+                /* String phonenum = FileTools.getshareString("tel");
                 if(phonenum.length() == 11) {
                     bu.setMobilePhoneNumber(phonenum);
                 }
@@ -364,13 +364,13 @@ public class LoginSchool_Activity extends AppCompatActivity {
                             }
                         }
                     }
-                });
+                }); */
             }
 
             ;
         }.start();
     }
-    protected void onResume() {
+    /* protected void onResume() {
         super.onResume();
         MiStatInterface.recordPageStart(this, "登录界面");
     }
@@ -379,5 +379,5 @@ public class LoginSchool_Activity extends AppCompatActivity {
         super.onPause();
         MiStatInterface.recordPageEnd();
     }
-
+    */
 }
