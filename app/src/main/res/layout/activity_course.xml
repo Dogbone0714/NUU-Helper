@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#00000000"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
 
             android:layout_width="match_parent"
@@ -41,9 +41,9 @@
             <!--android:onClick="click_menu"-->
             <!--android:scaleType="centerCrop"-->
             <!--android:src="@drawable/click_menu" />-->
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <ImageView
@@ -693,7 +693,7 @@
                     android:drawableLeft="@drawable/library_add"
                     android:onClick="onclick_add"
                     android:paddingLeft="12dp"
-                    android:text="添加课程"
+                    android:text="添加課程"
                     android:textColor="#48b3fb"
                     android:textSize="14sp" />
 
@@ -702,7 +702,7 @@
                     android:layout_height="match_parent"
                     android:background="#60e8e8e8" />
 
-                <Button
+                <!--<Button
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -713,7 +713,7 @@
                     android:paddingLeft="12dp"
                     android:text="查看调课"
                     android:textColor="#48b3fb"
-                    android:textSize="14sp" />
+                    android:textSize="14sp" />-->
 
                 <View
                     android:layout_width="1dp"
@@ -729,7 +729,7 @@
                     android:drawableLeft="@drawable/library_refresh"
                     android:onClick="onclick_refresh"
                     android:paddingLeft="12dp"
-                    android:text="刷新课表"
+                    android:text="刷新課表"
                     android:textColor="#48b3fb"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -738,7 +738,7 @@
     </LinearLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
 

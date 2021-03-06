@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -18,9 +18,9 @@
             app:navigationIcon="?attr/homeAsUpIndicator"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <LinearLayout
@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
-                android:text="课堂信息"
+                android:text="課堂資訊"
                 android:textColor="#6fb4f5"
                 android:textSize="16sp" />
 
@@ -63,7 +63,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/course_name"
-                    android:text="课名：" />
+                    android:text="課名：" />
 
                 <EditText
                     android:id="@+id/course_add_name"
@@ -92,17 +92,17 @@
                     android:drawableLeft="@drawable/course_location"
                     android:text="教室：" />
 
-                <Spinner
+                <!--<Spinner
                     android:id="@+id/course_add_spinner3"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content" /-->
 
                 <EditText
                     android:id="@+id/course_add_class"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="6dp"
-                    android:hint="1232" />
+                    android:hint="A1-101" />
             </LinearLayout>
 
             <LinearLayout
@@ -115,7 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/course_teacher"
-                    android:text="老师：" />
+                    android:text="老師：" />
 
                 <EditText
                     android:id="@+id/course_add_teacher"
@@ -135,9 +135,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/course_day"
-                    android:text="周数：" />
+                    android:text="週數：" />
+                <EditText
+                    android:id="@+id/course_add_teacher"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textColor="#828282" />
 
-                <Spinner
+                <!--<Spinner
                     android:id="@+id/course_add_spinner1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -145,7 +151,7 @@
                 <Spinner
                     android:id="@+id/course_add_spinner2"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content" />-->
             </LinearLayout>
 
             <Button
@@ -159,11 +165,11 @@
                 android:onClick="edit_click"
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp"
-                android:text="添 加"
+                android:text="新增"
                 android:textColor="#ffffff"
                 android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

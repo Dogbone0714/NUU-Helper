@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NUU-Helper.iml" filepath="$PROJECT_DIR$/.idea/modules/NUU-Helper.iml" group="NUU-Helper" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="NUU-Helper/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NUU-Helper.iml" filepath="$PROJECT_DIR$/.idea/modules/NUU-Helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NUU-Helper.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NUU-Helper.app.iml" />
     </modules>
   </component>
 </project>
