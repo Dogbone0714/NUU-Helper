@@ -44,7 +44,7 @@
                 android:background="@drawable/search_edittext_shape2"
                 android:drawableLeft="@drawable/search_icon2"
                 android:drawablePadding="5dp"
-                android:hint="输入关键词"
+                android:hint="輸入關鍵字"
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
                 android:textSize="15sp" />

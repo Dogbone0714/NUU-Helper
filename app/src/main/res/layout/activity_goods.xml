@@ -303,10 +303,10 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="8">
 
-                            <!--<TextView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="QQ:"
+                                android:text="Line:"
                                 android:textSize="16sp" />
 
                             <TextView
@@ -330,9 +330,9 @@
                                 android:id="@+id/tv_goods_copy"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="复制"
+                                android:text="複製"
                                 android:textColor="#0000dd"
-                                android:textSize="16sp" />-->
+                                android:textSize="16sp" />
                         </LinearLayout>
 
 

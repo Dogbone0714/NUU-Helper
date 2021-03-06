@@ -244,7 +244,7 @@
                             android:textColorHint="@color/colorAccent" />
                     </com.google.android.material.textfield.TextInputLayout>
 
-                   <!-- <com.google.android.material.textfield.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
@@ -253,12 +253,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="7dp"
-                            android:hint="QQ"
+                            android:hint="Line"
                             android:inputType="number"
                             android:maxLength="11"
                             android:singleLine="true"
                             android:textColorHint="@color/colorAccent" />
-                    </com.google.android.material.textfield.TextInputLayout> -->
+                    </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -290,7 +290,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="#7e7e7e"
-                            android:hint="敘述產品外貌"
+                            android:hint="敘述產品"
                             android:maxLength="100" />
                     </com.google.android.material.textfield.TextInputLayout>
 
