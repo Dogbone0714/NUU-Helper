@@ -1,6 +1,6 @@
 # NUU-Helper 聯大助手
 
-![Banner](https://github.com/Dogbone0714/NUU-Helper/blob/gh-pages/images/banner.png)
+![Banner](https://imgur.com/GnUZbZQ)
 
 
 > 本APP參考至 https://github.com/longer96/CDTU ，修改後發布。
