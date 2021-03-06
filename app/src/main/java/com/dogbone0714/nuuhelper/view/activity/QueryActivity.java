@@ -286,7 +286,7 @@ public class QueryActivity extends AppCompatActivity {
 //                    for (int i = 130000; i < 150000; i++) {
 //                        username = "1601" + i;
 //                        System.out.println("线程1-->" + username);
-//                        str = LoginService.getatudent2(COOKIE2, username);
+//                        str = LoginService.java.getatudent2(COOKIE2, username);
 //                        if (str != null) {
 //                            try {
 //                                File file = new File(context.getFilesDir(), "stu16_01_15.txt");
@@ -307,7 +307,7 @@ public class QueryActivity extends AppCompatActivity {
 //                    for (int i = 150000; i < 170000; i++) {
 //                        username = "1601" + i;
 //                        System.out.println("线程2------->" + username);
-//                        str = LoginService.getatudent2(COOKIE2, username);
+//                        str = LoginService.java.getatudent2(COOKIE2, username);
 //                        if (str != null) {
 //                            try {
 //                                File file = new File(context.getFilesDir(), "stu16_01_17.txt");
@@ -328,7 +328,7 @@ public class QueryActivity extends AppCompatActivity {
 //                    for (int i = 170000; i < 190000; i++) {
 //                        username = "1601" + i;
 //                        System.out.println("线程3---------------->：" + username);
-//                        str = LoginService.getatudent2(COOKIE2, username);
+//                        str = LoginService.java.getatudent2(COOKIE2, username);
 //                        if (str != null) {
 //                            try {
 //                                File file = new File(context.getFilesDir(), "stu16_01_19.txt");
@@ -349,7 +349,7 @@ public class QueryActivity extends AppCompatActivity {
 //                    for (int i = 190000; i < 210000; i++) {
 //                        username = "1601" + i;
 //                        System.out.println("线程4---------------->：" + username);
-//                        str = LoginService.getatudent2(COOKIE2, username);
+//                        str = LoginService.java.getatudent2(COOKIE2, username);
 //                        if (str != null) {
 //                            try {
 //                                File file = new File(context.getFilesDir(), "stu16_01_21.txt");
@@ -372,7 +372,7 @@ public class QueryActivity extends AppCompatActivity {
     public void getInfor() {
         new Thread() {
             public void run() {
-                // Log.d("学生信息:", LoginService.getatudent2(context,username));
+                // Log.d("学生信息:", LoginService.java.getatudent2(context,username));
                 Map<String, String> map = LoginService.query_student(context, username);
                 Message mes = new Message();
                 if (map == null) {
