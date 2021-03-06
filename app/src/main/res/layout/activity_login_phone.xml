@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -19,7 +19,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <RelativeLayout
@@ -36,7 +36,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:counterMaxLength="15">
@@ -46,11 +46,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#7e7e7e"
-                    android:hint="手机号"
+                    android:hint="手機號碼"
                     android:inputType="phone"
                     android:maxLength="15"
                     android:singleLine="true" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <RelativeLayout
                 android:id="@+id/rl_loginphone"
@@ -65,10 +65,10 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:background="@color/btn_isenable"
-                    android:text="获取验证码"
+                    android:text="獲得驗證碼"
                     android:textColor="#ffffff" />
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_toLeftOf="@+id/btn_login_phone_yzm"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -80,10 +80,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:backgroundTint="#7e7e7e"
-                        android:hint="验证码"
+                        android:hint="驗證碼"
                         android:maxLength="8"
                         android:singleLine="true" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
             </RelativeLayout>
 
             <Button
@@ -93,7 +93,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="30dp"
                 android:background="#2fa881"
-                android:text="登录"
+                android:text="登錄"
                 android:textColor="#ffffff"
                 android:textSize="16sp" />
 
@@ -113,7 +113,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:text="@string/login_phone_register" />
+                    android:text="註冊帳號" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -136,12 +136,12 @@
                     android:layout_height="1sp"
                     android:background="#bcbcbc" />
 
-                <TextView
+                <!--<TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
-                    android:text="登录方式" />
+                    android:text="登錄方式" />
 
                 <View
                     android:layout_width="120dp"
@@ -171,10 +171,10 @@
                     android:layout_marginTop="2dp"
                     android:text="QQ登录"
                     android:textSize="11sp" />
-            </LinearLayout>
+            </LinearLayout>-->
         </LinearLayout>
 
     </RelativeLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

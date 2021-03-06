@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,14 +7,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".view.activity.Add_lostActivity">
-
-    <android.support.design.widget.AppBarLayout
+    tools:context=".view.activity.Add_lost Activity">
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -23,10 +22,10 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -39,7 +38,7 @@
             android:layout_marginTop="10dp"
             android:orientation="vertical">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
@@ -64,7 +63,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="9dp"
-                            android:text="寻物"
+                            android:text="報失"
                             android:textColor="#7e7e7e"
                             android:textSize="18sp" />
 
@@ -85,7 +84,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="9dp"
-                            android:text="招领"
+                            android:text="拾獲"
                             android:textColor="#7e7e7e"
                             android:textSize="18sp" />
 
@@ -99,9 +98,9 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
@@ -117,7 +116,7 @@
                     android:paddingTop="10dp">
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="7dp"
@@ -129,13 +128,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="#7e7e7e"
-                            android:hint="标题"
+                            android:hint="標題"
                             android:maxLength="20"
                             android:maxLines="2" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="7dp"
@@ -149,10 +148,10 @@
                             android:hint="物品"
                             android:maxLength="10"
                             android:maxLines="1" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="7dp"
@@ -163,16 +162,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="#7e7e7e"
-                            android:hint="地点"
+                            android:hint="地點"
                             android:maxLength="10"
                             android:maxLines="1" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
@@ -195,7 +194,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="联系人："
+                            android:text="聯絡人："
                             android:textSize="18dp" />
 
 
@@ -218,18 +217,18 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="联系方式："
+                            android:text="聯絡方式："
                             android:textSize="18dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="(至少填一个)"
+                            android:text="(至少填一項)"
                             android:textSize="12sp" />
                     </LinearLayout>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
@@ -238,14 +237,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="7dp"
-                            android:hint="电话"
+                            android:hint="電話"
                             android:inputType="phone"
                             android:maxLength="11"
                             android:singleLine="true"
                             android:textColorHint="@color/colorAccent" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
-                    <android.support.design.widget.TextInputLayout
+                   <!-- <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
@@ -259,12 +258,12 @@
                             android:maxLength="11"
                             android:singleLine="true"
                             android:textColorHint="@color/colorAccent" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout> -->
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
@@ -279,7 +278,7 @@
                     android:paddingTop="20dp">
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="7dp"
@@ -291,9 +290,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="#7e7e7e"
-                            android:hint="说几句话描述一下呗"
+                            android:hint="敘述產品外貌"
                             android:maxLength="100" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                     <TextView
                         android:id="@+id/tv_addlost_addpic"
@@ -301,10 +300,10 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginRight="12dp"
-                        android:text="添加图片"
+                        android:text="提供照片"
                         android:textColor="#0099ed" />
 
-                    <android.support.v7.widget.RecyclerView
+                    <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/recy_addlost"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -333,7 +332,7 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <Button
                 android:id="@+id/btn_addlost_up"
@@ -343,14 +342,14 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="40dp"
                 android:background="@color/colorAccent"
-                android:text="发布"
+                android:text="公布"
                 android:textColor="#ffffff" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="40dp" />
         </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
