@@ -14,48 +14,54 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Test {
+public class LoginService {
     private static HttpClient client = new HttpClient();
-    private static GetMethod getMethod = new GetMethod("http://i.cqut.edu.cn/");
+    private static GetMethod getMethod = new GetMethod("eap10.nuu.edu.tw");
     private static PostMethod postMethod = new PostMethod();
     private static Map<String,String> map = new HashMap<String, String>();
 
     public static void login() throws HttpException, IOException{
-        //第一步 获取JSESSION
-        int status = client.executeMethod(getMethod);
-        map.put("JSESSION", getMethod.getResponseHeader("Set-Cookie").getValue().trim().split(";")[0].split("=")[1]);
 
-        //第二步 获取第二个JSESSION和lt
-        getMethod.setURI(new URI("http://i.cqut.edu.cn/zfca/login?service=http%3A%2F%2Fi.cqut.edu.cn%2Fportal.do"));
-        getMethod.addRequestHeader(new Header("Cookie", map.get("JSESSION").toString()));
+        int status = client.executeMethod(getMethod);
+        map.put("ASP.NET_SessionId", getMethod.getResponseHeader("Set-Cookie").getValue().trim().split(";")[0].split("=")[1]);
+
+
+        getMethod.setURI(new URI("https://eap10.nuu.edu.tw/Login.aspx?logintype=S"));
+        getMethod.addRequestHeader(new Header("Cookie", map.get("ASP.NET_SessionId").toString()));
         client.executeMethod(getMethod);
-        map.put("JSESSION2", getMethod.getResponseHeader("Set-Cookie").getValue().trim().split(";")[0].split("=")[1]);
-        Document doc = Jsoup.parse(getMethod.getResponseBodyAsStream(),"gbk","http://i.cqut.edu.cn");
-        map.put("lt",doc.select("[name=lt]").attr("value"));
+        map.put("ASP.NET_SessionId2", getMethod.getResponseHeader("Set-Cookie").getValue().trim().split(";")[0].split("=")[1]);
+        Document doc = Jsoup.parse(getMethod.getResponseBodyAsStream(),"gbk","https://eap10.nuu.edu.tw/");
+        //map.put("lt",doc.select("[name=lt]").attr("value"));
         System.out.println(map);
 
-        //第三步 发送POST请求
-        postMethod.setURI(new URI("http://i.cqut.edu.cn/zfca/login?service=http%3A%2F%2Fi.cqut.edu.cn%2Fportal.do"));
-        postMethod.addRequestHeader(new Header("Cookie", "JSESSION="+map.get("JSESSION")+";JSESSION="+map.get("JSESSION2")));
+
+
+
+
+        postMethod.setURI(new URI("https://eap10.nuu.edu.tw/Login.aspx?logintype=S"));
+        postMethod.setRequestHeader("Host", "eap10.nuu.edu.tw");
+        postMethod.setRequestHeader("Referer", "https://eap10.nuu.edu.tw/Login.aspx?logintype=S");
+        postMethod.addRequestHeader(new Header("Cookie", "ASP.NET_SessionId="+map.get("ASP.NET_SessionId")+";ASP.NET_SessionId="+map.get("ASP.NET_SessionId2")));
         postMethod.addParameter(new NameValuePair("_eventId", "submit"));
         postMethod.addParameter(new NameValuePair("isremenberme", "0"));
-        postMethod.addParameter(new NameValuePair("losetime", "30"));
+        postMethod.addParameter(new NameValuePair("losetime", "120"));
         postMethod.addParameter(new NameValuePair("password", "這裡填寫密碼"));
         postMethod.addParameter(new NameValuePair("username", "這裡填寫學號"));
         postMethod.addParameter(new NameValuePair("useValidateCode", "0"));
-        postMethod.addParameter(new NameValuePair("lt",map.get("lt")));
+        //postMethod.addParameter(new NameValuePair("lt",map.get("lt")));
         client.executeMethod(postMethod);
 
-        //第四步 进入个人中心主页
+
         getMethod.setURI(new URI(postMethod.getResponseHeader("Location").getValue()));
-        getMethod.setRequestHeader(new Header("Cookie", "JSESSION="+map.get("JSESSION")));
-        for(int i=0;i<getMethod.getRequestHeaders().length;i++){
-            System.out.println(getMethod.getRequestHeaders()[i].getName()+":"+getMethod.getRequestHeaders()[i].getValue());
-        }
+        getMethod.setRequestHeader("Cookie","ASP.NET_SessionId="+map.get("ASP.NET_SessionId"));
+        getMethod.setRequestHeader("Host", "eap10.nuu.edu.tw");
+        getMethod.setRequestHeader("Referer", "https://eap10.nuu.edu.tw/Login.aspx?logintype=S");
         status = client.executeMethod(getMethod);
 
-        System.out.println(status);
-        System.out.println(getMethod.getResponseBodyAsString());
+    }
+
+    public static void main(String[] args) throws HttpException, IOException {
+        login();
     }
 
     public static void main(String[] args) throws HttpException, IOException {
