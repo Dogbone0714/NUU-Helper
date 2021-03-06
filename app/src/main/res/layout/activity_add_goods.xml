@@ -92,7 +92,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="求购"
+                                android:text="徵求"
                                 android:textColor="#7e7e7e"
                                 android:textSize="18sp" />
 
@@ -116,7 +116,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="#7e7e7e"
-                            android:hint="标题"
+                            android:hint="標題"
                             android:maxLength="20"
                             android:maxLines="2" />
                     </com.google.android.material.textfield.TextInputLayout>
@@ -133,7 +133,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="#7e7e7e"
-                            android:hint="价格（面议）"
+                            android:hint="價格"
                             android:maxLength="7"
                             android:maxLines="1" />
                     </com.google.android.material.textfield.TextInputLayout>
@@ -155,7 +155,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="类型："
+                                android:text="類型："
                                 android:textSize="18sp" />
 
                             <Spinner
@@ -169,7 +169,7 @@
                             android:id="@+id/switch_addgoods_knife"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="可小刀 "
+                            android:text="可議價 "
                             android:textSize="16sp" />
 
 
@@ -201,7 +201,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="联系人："
+                            android:text="聯絡人："
                             android:textSize="16dp" />
 
 
@@ -230,13 +230,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="18dp"
-                                android:text="联系方式："
+                                android:text="聯絡方式："
                                 android:textSize="16sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="(至少填一个)"
+                                android:text="(至少填一項)"
                                 android:textSize="12sp" />
                         </LinearLayout>
 
@@ -254,7 +254,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="7dp"
-                                    android:hint="电话"
+                                    android:hint="電話"
                                     android:inputType="phone"
                                     android:maxLength="11"
                                     android:singleLine="true"
@@ -270,7 +270,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="7dp"
-                                    android:hint="QQ"
+                                    android:hint="Line"
                                     android:inputType="number"
                                     android:maxLength="11"
                                     android:singleLine="true"
@@ -310,7 +310,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="#7e7e7e"
-                            android:hint="说几句话描述一下呗"
+                            android:hint="簡介"
                             android:maxLength="100" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -320,7 +320,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginRight="12sp"
-                        android:text="添加图片"
+                        android:text="新增圖片"
                         android:textColor="#0099ed" />
 
                     <androidx.recyclerview.widget.RecyclerView
@@ -362,7 +362,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="40dp"
                 android:background="@color/colorAccent"
-                android:text="发布"
+                android:text="發布"
                 android:textColor="#ffffff" />
 
             <View
