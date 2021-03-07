@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,12 +7,12 @@
     android:fitsSystemWindows="true"
     tools:context=".view.activity.SkinActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -20,7 +20,7 @@
             app:navigationIcon="?attr/homeAsUpIndicator"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardview_skin_blue"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
@@ -57,12 +57,12 @@
                     android:layout_gravity="bottom|right"
                     android:layout_marginBottom="2dp"
                     android:layout_marginRight="6dp"
-                    android:text="默认蓝"
+                    android:text="深海藍"
                     android:textColor="#696969" />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardview_skin_girl"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
@@ -82,12 +82,12 @@
                     android:layout_gravity="bottom|right"
                     android:layout_marginBottom="2dp"
                     android:layout_marginRight="6dp"
-                    android:text="女神版"
+                    android:text="蜜桃粉"
                     android:textColor="#696969" />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardview_skin_boy"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
@@ -107,10 +107,10 @@
                     android:layout_gravity="bottom|right"
                     android:layout_marginBottom="2dp"
                     android:layout_marginRight="6dp"
-                    android:text="男生版"
+                    android:text="天空藍"
                     android:textColor="#696969" />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
@@ -120,7 +120,7 @@
             android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardview_skin_night"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
@@ -143,9 +143,9 @@
                     android:text="夜间模式"
                     android:textColor="#696969" />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardview_skin_purple"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
@@ -168,19 +168,21 @@
                     android:text="魅力紫"
                     android:textColor="#696969" />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview_skin_white"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:visibility="invisible">
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="136dp"
-                    android:background="#ff00ff" />
+                    android:background="#ffffff" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -188,13 +190,14 @@
                     android:layout_gravity="bottom|right"
                     android:layout_marginBottom="2dp"
                     android:layout_marginRight="6dp"
-                    android:text="高贵紫" />
+                    android:text="白色白"
+                    android:textColor="#696969" />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
     </LinearLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

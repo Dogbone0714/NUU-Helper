@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -18,9 +18,9 @@
             app:navigationIcon="?attr/homeAsUpIndicator"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <RelativeLayout
@@ -74,7 +74,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="14dp"
                         android:gravity="center_vertical"
-                        android:text="选择宿舍" />
+                        android:text="選擇宿舍" />
 
                     <TextView
                         android:id="@+id/tv_store_selectstore"
@@ -82,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="16dp"
                         android:gravity="center_vertical"
-                        android:text="选择店铺" />
+                        android:text="選擇店鋪" />
 
                     <View
                         android:layout_width="0dp"
@@ -115,17 +115,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <android.support.v4.widget.SwipeRefreshLayout
+                    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
                         android:id="@+id/swipe"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#ffffff">
 
-                        <android.support.v7.widget.RecyclerView
+                        <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/recycle_storp"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
-                    </android.support.v4.widget.SwipeRefreshLayout>
+                    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
                     <TextView
                         android:id="@+id/tv_store_null"
@@ -177,7 +177,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="￥5.00"
+                android:text="$5.00"
                 android:textColor="#9bd435"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -187,7 +187,7 @@
                 android:layout_height="match_parent"
                 android:background="#9bd435"
                 android:gravity="center"
-                android:text="去购物车"
+                android:text="去購物車"
                 android:textColor="#ffffff"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -196,4 +196,4 @@
     </RelativeLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>-->
