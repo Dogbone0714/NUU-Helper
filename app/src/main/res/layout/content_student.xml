@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
-        android:orientation="vertical">
+        android:orientation="vertical"/>
 
         <LinearLayout
             android:id="@+id/ll_student_page"
@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="      学生证补办流程"
+                    android:text="國立聯合大學獎助學金辦法"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -59,7 +59,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="1、国家奖学金申请"
+                    android:text="1、國立聯合大學入學新生獎勵金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -79,7 +79,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="2、国家励志奖学金申请"
+                    android:text="2、特殊教育學生獎助金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -99,7 +99,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="3、国家助学金申请"
+                    android:text="3、國立聯合大學研究生獎學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -119,7 +119,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="4、家庭经济困难学生申请认定"
+                    android:text="4、國立聯合大學外國學生獎學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -139,7 +139,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="5、学生生源地信用助学贷款办理"
+                    android:text="5、國立聯合大學僑生獎助學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -159,7 +159,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="6、新生绿色通道办理"
+                    android:text="6、陳為忠校長獎學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -202,7 +202,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="8、学生临时困难补贴申请"
+                    android:text="8、學生生活助學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -222,11 +222,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="9、学生申请勤工助学岗位"
+                    android:text="9、紀念鄧立登先生及鄧劉治妹女士清寒獎助學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
-        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/ll_student_stucard"
