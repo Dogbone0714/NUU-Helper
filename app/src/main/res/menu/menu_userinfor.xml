@@ -5,5 +5,6 @@
         android:id="@+id/action_userinfor_commit"
         android:icon="@drawable/ic_ok"
         android:orderInCategory="50"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        android:title="TODO" />
 </menu>
