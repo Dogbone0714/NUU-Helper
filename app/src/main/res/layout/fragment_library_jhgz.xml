@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="10dp"
-                android:text="成都工业学院图书馆借还规则"
+                android:text="國立聯合大學圖書館館藏資料借閱規則"
                 android:textColor="#000000"
                 android:textSize="19sp"
                 android:textStyle="bold" />
@@ -38,7 +38,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text=" 1.作为图书馆的借还书凭证是校园一卡通的功能之一，仅供本人使用，不能转借他人。借还图书必须凭借本人的校园一卡通。"
+                android:text="第一條\n國立聯合大學圖書館(以下簡稱本館)館藏資料，專供本校教職員工生及經本館核可之讀者借閱參考之用。"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -57,7 +57,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text=" 2.图书馆各楼层书库按藏、借、阅一体化设计，对读者实行全开架借阅。读者在各书库阅览图书时，应该做到：一次从书架上取一本书阅读，读完后按照书脊上的索书号上排回原来的地方，再另取一本书阅读；或者将书放在阅览桌上，由我们工作人员上架，读者不能随意将书上架。 "
+                android:text="第二條\n讀者應憑證借書，其規定如下：\n一、教職員工憑服務證辦理借書。\n二、學生憑學生證辦理借書。\n三、其他經本館核可的讀者需持相關證明文件，填寫借書申請表，辦理借書
+證，並憑證借書。"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -76,7 +77,13 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text=" 3.读者借书时，可直接到三楼自然科学书库，或四楼社会科学书库找书；也可通过设在一楼的计算机查询终端，先查询需要的书属哪类？收藏在哪里？然后再到相应的书库去找书；还可向工作人员咨询。 "
+                android:text="第三條 \n讀者借閱之權限規定如下：\n一、教師圖書總借閱數量一百冊，圖書借期六十天，自動續借五次。視聽資
+料五件，視聽資料借期十天，自動續借一次。\n二、員工圖書總借閱數量六十冊，圖書借期六十天，自動續借二次。視聽
+資料五件，視聽資料借期十天，自動續借一次。\n三、研究生圖書總借閱數量六十冊，借期六十天，自動續借二次。\n四、大學部學生圖書總借閱數量三十冊，借期三十天，自動續借二次。\n五、兼任教師圖書總借閱數量三十冊，圖書借期六十天，自動續借一次。
+視聽資料二件，視聽資料借期十天，自動續借一次。\n六、計畫人員圖書總借閱數量三十冊，圖書借期三十天，自動續借二次。\n視聽資料二件，視聽資料借期十天，自動續借一次。
+七、退休人員及教職員工眷屬圖書總借閱數量十冊，圖書借期三十天，自
+動續借一次。視聽資料二件，視聽資料借期十天，自動續借一次。\n八、修讀學分學生、校友圖書總借閱數量十冊，借期三十天，自動續借一
+次。\n九、校外人士圖書總借閱數量五冊，借期三十天，不得續借。"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -95,7 +102,14 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text=" 4.借书权限：学生20册，教师20册，干部10册，工人5册，退休职工2册，一般图书借书期限为30天，可续借2次；新书借书期限为7天，可续借2次。 "
+                android:text="第四條\n參考書（如字典、百科全書等）、教師指定參考書、珍貴圖書、休閒圖書、期刊、報紙、縮影資料及展示中之資料等，原則上僅供在館閱覽，
+概不外借。\n第五條\n本館進行館藏清點、整理或裝訂圖書時，得預告並收回借出之館藏。\n第六條\n讀者於非辦理借還書時間內，欲歸還借閱館藏時，可逕自投入設於
+本館門口之還書箱內，惟其歸還紀錄概以本館紀錄為準，若有遺失，讀者須自行負責，逾期圖書仍需繳滯還金。\n第七條\n擬借之圖書若已被借出，可辦理預約，讀者須於圖書館發出預約
+可借通知後七日內，到館辦理借閱手續；逾期未取者，除不予保留其預約外，並將累計其紀錄，每學期逾三冊未取書者，則停止其預約權三十天。\n第八條 \n書將到期而欲繼續借閱時，如無人預約，得於到期前七天內先行辦
+理續借或到期當日系統自動續借，續借次數依第三條規定辦理。\n第九條\n讀者借閱館藏資料未如期歸還者，除停止其借閱權外，每冊（件）每逾一日須課以新臺幣五元之滯還金，逾期滿一個月
+者，其滯還金不再累計，改為每冊每逾一日停止借閱權一日。停權部份可折算成滯還金，每日以新台幣二元計算。\n第十條\n不得在館藏資料上圈點、評註、折角、塗抹、或毀損，違者
+比照本館賠償辦法辦理 ，並報請相關單位議處；借閱或使用時若已發現上述情事，應立即向館員聲明。
+"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -114,7 +128,11 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text=" 5.所借文献必须在借还书台办理借阅手续后才能带出，违者要受到批评教育或处罚。"
+                android:text="第十一條\n讀者證件限本人使用，不得轉借或交換，如有持他人證件借閱資料者或將證件借予他人者，一經發現，本館除追還當時所
+借館藏外，並停止該雙方借閱權三十日。\n第十二條\n讀者借書證及互換借書證如有遺失，應立即向本館聲明掛失，並向原核發單位申請補發；其在聲明前因證件遭人冒用致本
+館館藏資料蒙受損失時，原持證人應負賠償之責。\n第十三條\n教職員工離職前須還清所借館藏，否則不予辦理離職手續。學生畢業、轉學、休學或退學者，須於離校前還清，否則不
+予辦理離校手續。倘讀者辦理離職、離校時仍在停權中或有逾期滯還金未繳，應一次繳清尚餘停權日數之滯還金及逾期滯還金，未還清者不予辦理離校、離職手續。\n第十四條\n讀者應自行確認登記在圖書館系統中的電子郵件信箱能正常接收電子郵件。如需更新電子郵件信箱，請至圖書館館藏查詢更新，以避免漏失圖書館發出的通知信件。
+"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -133,125 +151,11 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text=" 6.读者外借图书时，要当面检查所借图书有无破损和缺页，如有请工作人员当面加盖印章确认，否则归还图书时发现破损、缺页和拆图等情况，又未能盖章确认的，要追究当事人的责任。"
+                android:text="第十五條\n本規則經圖書館諮詢委員會通過後實施。\n"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1sp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"
-                android:layout_marginTop="10dp"
-                android:background="#10000000" >
-            </View>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:text="7.在规定期限内，读者所借图书是免费的。为加快图书流通，满足更多读者的需求，图书馆鼓励读者提前归还图书，对借书超期者要收取图书超期使用费，每册每天按0.1元计收。遇寒暑假到期的书，可在开学后一周内归还免交超期费。"
-                android:textColor="#000000"
-                android:textSize="14sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1sp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"
-                android:layout_marginTop="10dp"
-                android:background="#10000000" >
-            </View>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:text="8.图书馆各楼层书库均安装有摄像监控设备，以防止不良行为发生；读者通过门禁遇到报警时，要自觉服从检查；对有盗窃图书行为者，除写出书面检讨，公开通报或通知所在单位外，还要按《图书赔偿办法》的有关规定处理。 "
-                android:textColor="#000000"
-                android:textSize="14sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1sp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"
-                android:layout_marginTop="10dp"
-                android:background="#10000000" >
-            </View>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:text="9.请爱护图书，不能有毁损、涂写、遗失图书的情况发生，否则要按《图书赔偿办法》的有关规定处理。 "
-                android:textColor="#000000"
-                android:textSize="14sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1sp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"
-                android:layout_marginTop="10dp"
-                android:background="#10000000" >
-            </View>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:text="10.请遵守公德，爱护公物，保持肃静，讲究卫生，不要在馆内吸烟、吃零食，做文明读者。"
-                android:textColor="#000000"
-                android:textSize="14sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1sp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"
-                android:layout_marginTop="10dp"
-                android:background="#10000000" >
-            </View>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:text="续借方法： \n      方法一:请在图书馆网站“读者登录”栏目用读者的借书证号（学生为学号，教师为工号）和密码登录后，自助办理续借手续。 
-                 \n      方法二：好像可以去图书馆的柜台处续借 。\n      方法三：当然可以使用我写的软件一键续借啦。"
-                android:textColor="#000000"
-                android:textSize="16sp"/>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1sp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"
-                android:layout_marginTop="10dp"
-                android:background="#10000000" >
-            </View>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:text="注意：以上信息来自图书馆官网“如何借还图书”，还是那句换，出了事我不负责的哦~"
-                android:textColor="#005555"
-                android:textSize="14sp" />
         </LinearLayout>
     </ScrollView>
 
