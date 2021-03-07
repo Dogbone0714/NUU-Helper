@@ -21,13 +21,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="姓名"
+        android:text="姓名˙"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/tv_menu_class"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="班级" />
+        android:text="班級" />
 
 </LinearLayout>
