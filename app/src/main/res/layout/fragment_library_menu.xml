@@ -14,7 +14,7 @@
         android:drawableLeft="@drawable/search_icon"
         android:drawablePadding="5dp"
         android:imeOptions="actionSearch"
-        android:text="搜索"
+        android:text="搜尋"
         android:textColor="#696969"
         android:onClick="onclick_select"
         android:textSize="16sp" />
@@ -45,7 +45,7 @@
                     android:gravity="top|center_horizontal"
                     android:onClick="onclick_mybook"
                     android:paddingTop="25dp"
-                    android:text="我的书籍"
+                    android:text="我的書籍"
                     android:textColor="#3c3c3c"
                     android:textSize="13sp" />
 
@@ -60,7 +60,7 @@
                     android:gravity="top|center_horizontal"
                     android:onClick="onclick_history"
                     android:paddingTop="25dp"
-                    android:text="借阅历史"
+                    android:text="借閱歷史"
                     android:textColor="#3c3c3c"
                     android:textSize="13sp" />
 
@@ -73,7 +73,7 @@
                     android:gravity="top|center_horizontal"
                     android:onClick="onclick_jhgz"
                     android:paddingTop="25dp"
-                    android:text="借还规则"
+                    android:text="借還規則"
                     android:textColor="#3c3c3c"
                     android:textSize="13sp" />
             </LinearLayout>
@@ -94,7 +94,7 @@
                     android:gravity="top|center_horizontal"
                     android:onClick="onclick_other"
                     android:paddingTop="25dp"
-                    android:text="新书通报"
+                    android:text="新書通報"
                     android:textColor="#3c3c3c"
                     android:textSize="13sp" />
 
@@ -109,7 +109,7 @@
                     android:gravity="top|center_horizontal"
                     android:onClick="onclick_tspc"
                     android:paddingTop="25dp"
-                    android:text="图书赔偿"
+                    android:text="圖書賠償"
                     android:textColor="#3c3c3c"
                     android:textSize="13sp" />
 
@@ -141,7 +141,7 @@
                     android:drawableTop="@drawable/library_menu_07"
                     android:onClick="onclick_select"
                     android:paddingTop="25dp"
-                    android:text="图书检索"
+                    android:text="圖書搜尋"
                     android:textColor="#3c3c3c"
                     android:textSize="13sp" />
 
@@ -182,7 +182,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="我的再借书籍："
+                android:text="我的再借書籍："
                 android:textColor="#363636"
                 android:textSize="16sp" />
 
@@ -216,7 +216,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="我一共读了："
+                android:text="我一共讀了："
                 android:textColor="#363636"
                 android:textSize="16sp" />
 

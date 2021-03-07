@@ -58,7 +58,7 @@
 
                         <TextView
                             style="@style/menu.text"
-                            android:text="校园公告" />
+                            android:text="校園公告" />
 
                     </LinearLayout>
 
@@ -73,24 +73,12 @@
 
                         <TextView
                             style="@style/menu.text"
-                            android:text="校车" />
+                            android:text="校車" />
 
                     </LinearLayout>
 
                     <!--单个的小功能块-->
-                    <LinearLayout
-                        android:id="@+id/menu_select_card"
-                        style="@style/menu.Lineralayout">
 
-                        <ImageView
-                            style="@style/menu.Image"
-                            android:src="@drawable/menu_card_select" />
-
-                        <TextView
-                            style="@style/menu.text"
-                            android:text="一卡通查询" />
-
-                    </LinearLayout>
 
                     <!--单个的小功能块-->
                     <LinearLayout
@@ -103,7 +91,7 @@
 
                         <TextView
                             style="@style/menu.text"
-                            android:text="学生查询" />
+                            android:text="學生查詢" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -114,19 +102,7 @@
                     android:orientation="horizontal">
 
                     <!--单个的小功能块-->
-                    <LinearLayout
-                        android:id="@+id/menu_card_tools"
-                        style="@style/menu.Lineralayout">
 
-                        <ImageView
-                            style="@style/menu.Image"
-                            android:src="@drawable/menu_card_tools" />
-
-                        <TextView
-                            style="@style/menu.text"
-                            android:text="一卡通工具" />
-
-                    </LinearLayout>
 
                     <!--单个的小功能块-->
                     <LinearLayout
@@ -139,7 +115,7 @@
 
                         <TextView
                             style="@style/menu.text"
-                            android:text="学生处" />
+                            android:text="學生會" />
 
                     </LinearLayout>
 
@@ -154,22 +130,11 @@
 
                         <TextView
                             style="@style/menu.text"
-                            android:text="免费会员" />
+                            android:text="免費會員" />
 
                     </LinearLayout>
 
-                    <!--单个的小功能块-->
-                    <LinearLayout
-                        android:id="@+id/menu_store"
-                        style="@style/menu.Lineralayout"
-                        >
-                        <ImageView
-                            style="@style/menu.Image"
-                            android:src="@drawable/menu_vip" />
 
-                        <TextView
-                            style="@style/menu.text"
-                            android:text="同学的店" />
 
                     </LinearLayout>
                 </LinearLayout>

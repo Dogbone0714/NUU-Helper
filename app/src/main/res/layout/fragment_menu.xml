@@ -9,7 +9,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#f0f0f0">
@@ -28,7 +28,7 @@
                 app:rollviewpager_play_delay="3500" />
 
             <!--布局包括：功能、详细列表-->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 card_view:cardCornerRadius="5dp"
@@ -59,7 +59,7 @@
 
                             <TextView
                                 style="@style/menu.text"
-                                android:text="课表" />
+                                android:text="課表" />
 
                         </LinearLayout>
 
@@ -74,7 +74,7 @@
 
                             <TextView
                                 style="@style/menu.text"
-                                android:text="正方系统" />
+                                android:text="校務系統" />
 
                         </LinearLayout>
 
@@ -89,23 +89,10 @@
 
                             <TextView
                                 style="@style/menu.text"
-                                android:text="图书借阅" />
+                                android:text="圖書借閱" />
 
                         </LinearLayout>
-                        <!--单个的小功能块-->
-                        <LinearLayout
-                            android:id="@+id/menu_money"
-                            style="@style/menu.Lineralayout">
 
-                            <ImageView
-                                style="@style/menu.Image"
-                                android:src="@drawable/menu_card" />
-
-                            <TextView
-                                style="@style/menu.text"
-                                android:text="消费记录" />
-
-                        </LinearLayout>
                     </LinearLayout>
 
 
@@ -118,20 +105,7 @@
                         android:background="#ffffff"
                         android:orientation="horizontal">
 
-                        <!--单个的小功能块-->
-                        <LinearLayout
-                            android:id="@+id/menu_love"
-                            style="@style/menu.Lineralayout">
 
-                            <ImageView
-                                style="@style/menu.Image"
-                                android:src="@drawable/menu_love" />
-
-                            <TextView
-                                style="@style/menu.text"
-                                android:text="表白墙" />
-
-                        </LinearLayout>
 
                         <!--单个的小功能块-->
                         <LinearLayout
@@ -144,7 +118,7 @@
 
                             <TextView
                                 style="@style/menu.text"
-                                android:text="校历" />
+                                android:text="行事曆" />
 
                         </LinearLayout>
 
@@ -159,7 +133,7 @@
 
                             <TextView
                                 style="@style/menu.text"
-                                android:text="校园黄页" />
+                                android:text="校園電話" />
 
                         </LinearLayout>
 
@@ -180,7 +154,7 @@
                     </LinearLayout>
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <include
                 layout="@layout/menu_below"
@@ -193,6 +167,6 @@
                 android:layout_height="40dp" />
 
         </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>

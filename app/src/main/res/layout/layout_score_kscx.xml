@@ -1,3 +1,4 @@
+<!--
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -12,7 +13,9 @@
         android:layout_marginTop="18dp"
         android:layout_marginBottom="12dp"
         android:textColor="#3c3c3c"
-        android:text="考试地点查询"
+        android:text="考試地點查詢"
         android:textSize="16sp" />
 
 </LinearLayout>
+
+-->

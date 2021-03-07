@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="10dp"
-                android:text="成都工业学院图书馆图书赔偿办法"
+                android:text="國立聯合大學圖書館館藏資料賠償辦法"
                 android:textColor="#000000"
                 android:textSize="19sp"
                 android:textStyle="bold" />
@@ -38,7 +38,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="        图书馆馆藏的图书资料，既是国有资产，又是全校师生学习、工作的重要工具，读者要弘扬社会主义公德，自觉爱护图书报刊，遵守图书借阅制度，不得遗失、毁损（包括圈点、涂画、批注、撕毁、烧残、水浸等）图书，如所借书刊出现上述情况，应按以下办法处理"
+                android:text=" 第一條\n
+借閱本館館藏資料有污損或遺失時應依本辦法辦理賠償。 。 "
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -57,7 +58,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="        第一条，读者借阅书刊时，应当面检查，如发现有污损、缺页等现象，应及时向我馆工作人员报告，由工作人员在污损、缺页处加盖印记。否则，归还时所发现书刊有上述现象，应由借书人按本制度负责赔偿责任。"
+                android:text="第二條\n借閱本館 館藏 資料 有下列情形之一者應視為污損：\n一、圈點。\n二、批註。\n三、污染。\n四、折角。 "
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -76,7 +77,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="        第二条，任何书刊如遗失、毁损，可用同版本或再版本赔偿，并交纳重新分编、磁条、条形码等加工材料费5元。"
+                android:text="第三條\n借閱本館 館藏資料有列情形之一者應視為遺失。\n一、 借閱人向本館聲明遺失者。\n二、借閱人未依照指定日期歸還並經本館兩次催還〈每次以一星期為限〉，仍
+未照指定日期歸還者。\n三、撕破。\n四、缺頁。 "
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -95,7 +97,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="        第三条，图书遗失者、毁损者确实无法以相同版本书刊赔偿的，则视馆藏情况和出版时间（参考我国图书价格上涨幅度），按下列标准赔偿："
+                android:text="第四條\n借閱本館 館藏 資料 有第二條一至四款情形之一時，本館得酌量依污染程度
+令其繳納罰金，有第三條情形者負責賠償。
+"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -115,7 +119,14 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="8dp"
-                android:text="        2．单册期刊，按该刊定价的2-3倍赔偿；报刊合订本，按该合订本价格的3-5倍赔偿。"
+                android:text="第五條\n圖書賠償方式如下：\n一、 需 自行購買與原資料內容、版本完全相同者賠償之。 國內可購得之圖書
+資料，於三十天內辦妥抵賠手續，國內無法購得之圖書資料，於九十天內
+辦妥抵賠 手 續，翻版書不得抵賠原版書。\n二、 無法購得原資料時，依下列方式處理之：\n１、 如有新版資料得以新版資料取代，唯與著作權法牴觸之圖書資料不
+得抵賠原資料。\n２、 若為絕版書，則依登錄簿上所註記之價格的 10 倍賠償。若登錄簿無
+註記之價格者，中文圖書每冊賠償二千元，西文圖書每冊賠償三千元。\n３、 無法查得購入價格或為贈送資料，中文圖書每冊賠償一千元，西文
+圖書每冊賠償二千元。\n４、 登錄簿之價格如為外幣，則以當天之匯率折算成新台幣。
+三、 賠償時 , 圖書資料每筆均需收耗材、加工等手續費每件新台幣一百元。
+"
                 android:textColor="#000000"
                 android:textSize="13sp" />
 
@@ -134,7 +145,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="        第四条、单位集体借书如有遗失或毁损，由经办人负责按第三条标准赔偿。"
+                android:text="第六條\n期刊賠償方式如下：\n一、 國內期刊需於三十天內，國外期刊需於六十天內，購得原期刊賠償。
+二、若期限內無法購得原期刊，經本館查證仍可購得時，以市價賠償。\n三、期刊無法購得時，依館藏期刊最新一期定價之五倍賠償。\n四、無定價者，以期刊頁數計，一頁五元。\n五、賠償時 , 期刊單行本每筆資料均需收耗材、加工等手續費每冊新台幣五
+十元。\n六、賠償時 , 期刊合訂本每筆資料均需收耗材、加工等手續費每冊新台幣五十元。另加收裝訂費。 "
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -153,7 +166,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="        第五条、赔偿书刊时，到图书馆流通部办公室通过计算机办理手续。"
+                android:text="第七條\n一、 視聽資料之賠償，需按本館購買實際價格以現金賠償，未償還時，本館有停止其圖書資料借用權。\n二、賠償時 , 視聽資料每筆均需收耗材、加工等手續費每件新台幣一百元。"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -172,7 +185,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="        第六条、读者赔偿图书后，也不再办理退款手续（由于计算机处理并注销了该书的数据，因此，赔偿图书后，即使读者重新找到图书，也不再办理退款手续）"
+                android:text="第八條\n圖書資料借閱期限內掛失不計逾期；掛失前已逾期或超過期限辦理者，視同借書逾期。"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
@@ -192,7 +205,30 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:text="注意：以上信息来自图书馆官网“图书赔偿办法”，还是那句换，出了事我不负责的哦~"
+                android:text="第九條\n偷竊及毀損資料之處理：\n凡未經辦理出借手續，而攜帶本館館藏資料離館或在館內損毀館藏資料者，以下列
+方式一併處理：\n一 、為維護公共財產，凡違規使用之讀者，處理方式如下：\n１、圖書以本辦法第五條第三款所訂之辦價格後，乘以三倍之處理費。\n２、視聽資料以該套資料訂價三倍之處理費。
+３、期刊為事實發生時該年訂費三倍之處理費。\n二 、停止其借閱權半年。\n三 、違規情形嚴重者，移送法辦。"
+                android:textColor="#005555"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:background="#10000000" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="第十條\n本辦法經本校圖書館諮詢委員會會議通過，經校長核定後，公佈實施之，修訂時亦
+同。"
                 android:textColor="#005555"
                 android:textSize="14sp" />
         </LinearLayout>

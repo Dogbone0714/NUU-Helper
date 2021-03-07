@@ -25,6 +25,10 @@ android {
 }
 
 dependencies {
+    implementation fileTree(dir: 'C:\\Users\\Lenovo\\Desktop\\NUU-Helper\\app\\src\\main\\java\\com\\dogbone0714\\nuuhelper\\libs', include: ['*.aar', '*.jar'], exclude: [])
+    implementation fileTree(dir: 'src\\main\\java\\com\\dogbone0714\\nuuhelper\\libs', include: ['*.aar', '*.jar'], exclude: [])
+    implementation 'androidx.drawerlayout:drawerlayout:1.0.0'
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     implementation files('libs/jsoup-1.8.3.jar')
     implementation files('libs/randomlayout.jar')

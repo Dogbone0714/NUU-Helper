@@ -82,7 +82,7 @@ public class CardToolsActivity extends AppCompatActivity {
         //得到一卡通状态
 //        new Thread() {
 //            public void run() {
-//                zt = LoginService.getcardzt();
+//                zt = LoginService.java.getcardzt();
 //            }
 //        }.start();
     }

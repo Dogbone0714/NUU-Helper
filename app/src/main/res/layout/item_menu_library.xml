@@ -30,7 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="图书馆"
+                    android:text="圖書館"
                     android:textColor="#000000"
                     android:textSize="16sp" />
 
@@ -46,7 +46,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="12dp"
             android:layout_marginTop="10dp"
-            android:text="在借书籍：null本"
+            android:text="已借書籍：null本"
             android:textSize="14sp" />
     </RelativeLayout>
 
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="作者：    剩余天数：null"
+                android:text="作者：    剩餘天數：null"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
@@ -169,7 +169,7 @@
             android:gravity="center"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
-            android:text="一键续借"
+            android:text="一鍵續借"
             android:textColor="#3694de"
             android:textSize="15sp" />
 
@@ -181,7 +181,7 @@
             android:gravity="center"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
-            android:text="搜索图书"
+            android:text="搜尋圖書"
             android:textColor="#3694de"
             android:textSize="15sp" />
     </LinearLayout>

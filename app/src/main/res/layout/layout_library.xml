@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
-                android:text="《红了春秋 绿了战国》"
+                android:text="《陳彥廷還錢》"
                 android:textSize="16sp" />
 
             <TextView
@@ -38,7 +38,7 @@
                 android:layout_below="@id/library_book"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="4dp"
-                android:text="馆藏地点："
+                android:text="館藏地點："
                 android:textColor="#9C9C9C"
                 android:textSize="12sp" />
 
@@ -67,7 +67,7 @@
                     android:id="@+id/library_borrow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="借书时间: "
+                    android:text="借書時間: "
                     android:textColor="#363636"
                     android:textSize="13sp" />
 
@@ -75,14 +75,14 @@
                     android:id="@+id/library_return"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="应还时间: "
+                    android:text="應還時間: "
                     android:textColor="#363636"
                     android:textSize="13sp" />
                 <TextView
                     android:id="@+id/library_number"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="续借次数: "
+                    android:text="續借次數: "
                     android:textColor="#363636"
                     android:textSize="13sp" />
 
@@ -93,7 +93,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="剩余天数: "
+                        android:text="剩餘天數: "
                         android:layout_marginTop="2dp"                        
                         android:textColor="#363636"
                         android:textSize="13sp" />

@@ -28,7 +28,7 @@
                 android:id="@+id/library_history_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="关于2015/2016学年第二学期开学补考安排的通知 "
+                android:text="關於109學年度第二學期開學補考安排的通知 "
                 android:layout_marginBottom="2dp"
                 android:textSize="15sp" />
 
@@ -37,7 +37,7 @@
                 android:id="@+id/library_history_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="处理时间：2016-01-29"
+                android:text="處理時間：2021.03.07"
                 android:textColor="#9C9C9C"
                 android:textSize="12sp" />
         </LinearLayout>
@@ -51,7 +51,7 @@
             android:layout_marginBottom="2dp"
             android:layout_marginRight="12dp"
             android:layout_marginTop="3dp"
-            android:text="还书"
+            android:text="還書"
             android:textColor="#A020F0"
             android:textSize="16sp" />
     </RelativeLayout>

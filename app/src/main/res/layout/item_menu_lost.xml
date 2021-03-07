@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:text="失物招领"
+            android:text="失物招領"
             android:textColor="#000000"
             android:textSize="16sp" />
 
@@ -56,17 +56,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:maxLines="1"
-                android:text="商品名称"
+                android:text="商品名稱"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
             <TextView
+
                 android:id="@+id/tv_menu_lost_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="14dp"
                 android:maxLines="1"
-                android:text="商品时间"
+                android:text="商品時間"
                 android:textSize="11sp" />
 
             <TextView
@@ -75,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="24dp"
                 android:maxLines="3"
-                android:text="商品介绍"
+                android:text="商品介紹"
                 android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>
@@ -92,7 +93,7 @@
         android:gravity="center"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
-        android:text="我要发布"
+        android:text="我要發布"
         android:textColor="#3694de"
         android:textSize="15sp" />
 </LinearLayout>

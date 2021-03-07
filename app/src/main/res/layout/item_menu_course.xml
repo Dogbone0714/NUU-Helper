@@ -30,7 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="课表"
+                    android:text="課表"
                     android:textColor="#000000"
                     android:textSize="16sp" />
 
@@ -53,7 +53,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="12dp"
             android:layout_marginTop="10dp"
-            android:text="今天有null节课"
+            android:text="今天有null節課"
             android:textSize="14sp" />
     </RelativeLayout>
 

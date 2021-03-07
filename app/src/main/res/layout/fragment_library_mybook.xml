@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="学号"
+                android:text="學號"
                 android:textSize="16sp" />
 
             <TextView
@@ -40,7 +40,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@id/activity_library_tv_money1"
-                android:text="欠罚款:"
+                android:text="欠罰款:"
                 android:textSize="14sp" />
 
             <TextView
@@ -60,7 +60,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@id/activity_library_tv_money2"
-                android:text="欠赔付:"
+                android:text="欠賠付:"
                 android:textSize="14sp" />
         </RelativeLayout>
 
@@ -89,7 +89,7 @@
                 android:background="#4576EEC6"
                 android:textColor="#85A020F0"
                 android:layout_alignParentBottom="true"
-                android:text="一键续借" />
+                android:text="一鍵續借" />
 
         </RelativeLayout>
     </LinearLayout>
