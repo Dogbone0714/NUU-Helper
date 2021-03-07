@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -8,9 +8,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.textfield.TextInputLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -18,12 +18,12 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.longer.school.Application;
-import com.longer.school.R;
-import com.longer.school.modle.bean.User;
-import com.longer.school.presenter.Register_ActivityPresenter;
-import com.longer.school.utils.Toast;
-import com.longer.school.view.iview.IRegister_ActivityView;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.presenter.Register_ActivityPresenter;
+import com.dogbone0714.nuuhelper.utils.Toast;
+import com.dogbone0714.nuuhelper.view.iview.IRegister_ActivityView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

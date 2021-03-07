@@ -1,21 +1,21 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -26,30 +26,30 @@ import android.widget.TextView;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.gordonwong.materialsheetfab.MaterialSheetFab;
-import com.longer.school.Application;
-import com.longer.school.modle.bean.Appinfor;
-import com.longer.school.modle.bean.Message;
-import com.longer.school.modle.bean.User;
-import com.longer.school.Config;
-import com.longer.school.R;
-import com.longer.school.view.fragment.Fragment_Card;
-import com.longer.school.view.fragment.Fragment_Goods;
-import com.longer.school.view.fragment.Fragment_Lost;
-import com.longer.school.view.fragment.Fragment_Menu;
-import com.longer.school.utils.Fab;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.LoginService;
-import com.longer.school.utils.PublicTools;
-import com.longer.school.utils.Toast;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.Appinfor;
+import com.dogbone0714.nuuhelper.modle.bean.Message;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.Config;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.view.fragment.Fragment_Card;
+import com.dogbone0714.nuuhelper.view.fragment.Fragment_Goods;
+import com.dogbone0714.nuuhelper.view.fragment.Fragment_Lost;
+import com.dogbone0714.nuuhelper.view.fragment.Fragment_Menu;
+import com.dogbone0714.nuuhelper.utils.Fab;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+import com.dogbone0714.nuuhelper.utils.PublicTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
 import com.nineoldandroids.view.ViewHelper;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-
+*/
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

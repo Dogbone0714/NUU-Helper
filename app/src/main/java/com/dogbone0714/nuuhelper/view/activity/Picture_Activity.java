@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.longer.school.R;
-import com.longer.school.adapter.PictureAdapter;
-import com.longer.school.utils.PinchImageViewPager;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.adapter.PictureAdapter;
+import com.dogbone0714.nuuhelper.utils.PinchImageViewPager;
 
 import java.util.ArrayList;
 

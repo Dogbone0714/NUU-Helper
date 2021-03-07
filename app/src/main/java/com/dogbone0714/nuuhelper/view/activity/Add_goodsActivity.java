@@ -1,4 +1,4 @@
-package com.dogbone0714.nuuhelper.view.Add_goodsactivity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.Manifest;
 import android.app.Activity;
