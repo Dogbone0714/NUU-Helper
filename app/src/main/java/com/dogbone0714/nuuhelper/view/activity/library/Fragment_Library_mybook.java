@@ -1,4 +1,4 @@
-package com.longer.school.view.activity.library;
+package com.dogbone0714.nuuhelper.view.activity.library;
 
 import android.app.Fragment;
 import android.app.ProgressDialog;
@@ -17,11 +17,11 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.longer.school.R;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.LoginService;
-import com.longer.school.utils.TimeTools;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+import com.dogbone0714.nuuhelper.utils.TimeTools;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.ArrayList;
 import java.util.HashMap;

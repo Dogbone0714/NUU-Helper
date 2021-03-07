@@ -1,4 +1,4 @@
-package com.longer.school.view.activity.library;
+package com.dogbone0714.nuuhelper.view.activity.library;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -7,9 +7,9 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,10 +18,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.longer.school.Application;
-import com.longer.school.R;
-import com.longer.school.utils.FileTools;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 public class LibraryActivity extends AppCompatActivity {
 	private FragmentManager fm;
