@@ -123,7 +123,7 @@
                         </LinearLayout>
 
                         <!--单个的小功能块-->
-                        <LinearLayout
+                       <!-- <LinearLayout
                             android:id="@+id/menu_yellow"
                             style="@style/menu.Lineralayout">
 
@@ -135,7 +135,7 @@
                                 style="@style/menu.text"
                                 android:text="校園電話" />
 
-                        </LinearLayout>
+                        </LinearLayout> -->
 
                         <!--单个的小功能块-->
                         <LinearLayout

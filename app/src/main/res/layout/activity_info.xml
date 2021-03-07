@@ -265,7 +265,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
                         android:layout_marginLeft="30dp"
-                        android:text="1.課表查詢\n2.期末成績查詢\n3.校車\n4.行事曆\n5.二手市場\n6.失物招領\n7.校園公告\n8.校園電話\n9.圖書查詢\n10.學分查詢\n"
+                        android:text="1.課表查詢\n2.期末成績查詢\n3.校車\n4.行事曆\n5.二手市場\n6.失物招領\n7.校園公告\n8.圖書查詢\n9.學分查詢\n"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
