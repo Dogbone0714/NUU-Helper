@@ -1,12 +1,12 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.longer.school.Config;
-import com.longer.school.utils.FileTools;
+import com.dogbone0714.nuuhelper.Config;
+import com.dogbone0714.nuuhelper.utils.FileTools;
 
 
 public class AppSplashActivity extends Activity {
