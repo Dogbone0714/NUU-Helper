@@ -1,4 +1,4 @@
-package com.longer.school.adapter;
+/*package com.longer.school.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * 学校黄页的适配器
  * Created by Longer on 2016/9/17.
- */
+ *//*
 public class YellowAdapter extends RecyclerView.Adapter<YellowAdapter.MainCardHolder> {
     public Itemclick mItemOnClickListener;
     public List<Yellow> yellows = null;
@@ -110,3 +110,4 @@ public class YellowAdapter extends RecyclerView.Adapter<YellowAdapter.MainCardHo
 
 
 }
+*/

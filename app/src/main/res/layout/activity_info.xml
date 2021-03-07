@@ -95,7 +95,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
+                        android:layout_margin="15dp"
                         android:gravity="center_horizontal"
                         android:text="介紹與幫助"
                         android:textColor="#2e2e2e"
@@ -182,7 +182,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="開發人員名單 ：康皓雄(康康)、A夢、祈 "
+                            android:text="開發人員名單 ：康皓雄(康康)、陳麒然(A夢)、祈"
                             android:textColor="#7d7d7d"
                             android:textSize="16sp" />
 
@@ -302,7 +302,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="14dp"
                         android:layout_marginLeft="10dp"
-                        android:text="compile 'com.jakewharton:butterknife:7.0.1'\ncompile 'com.aurelhubert:ahbottomnavigation:1.3.3'\ncompile 'com.android.support:support-v4:23.4.0'\ncompile 'com.github:WaveSwipeRefreshLayout:1.6'\ncompile 'cn.bmob.android:bmob-sdk:3.5.0'\ncompile 'cn.bmob.android:http-legacy:1.0'\ncompile 'com.gordonwong:material-sheet-fab:1.2.1'\ncompile 'com.squareup.picasso:picasso:2.5.2'\ncompile 'com.yancy.imageselector:imageselector:1.3.3'\ncompile 'com.github.bumptech.glide:glide:3.6.1'\ncompile 'com.jude:rollviewpager:1.2.9'"
+                        android:text="compile 'com.jakewharton:butterknife:7.0.1'\ncompile 'com.aurelhubert:ahbottomnavigation:1.3.3'\ncompile 'com.android.support:support-v4:23.4.0'\ncompile 'com.github:WaveSwipeRefreshLayout:1.6'\ncompile 'com.gordonwong:material-sheet-fab:1.2.1'\ncompile 'com.squareup.picasso:picasso:2.5.2'\ncompile 'com.yancy.imageselector:imageselector:1.3.3'\ncompile 'com.github.bumptech.glide:glide:3.6.1'\ncompile 'com.jude:rollviewpager:1.2.9'\nwww.github.com/longer96/CDTU/"
                         android:textColor="#7d7d7d"
                         android:textSize="13sp" />
 
@@ -316,6 +316,7 @@
     </androidx.core.widget.NestedScrollView>
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
