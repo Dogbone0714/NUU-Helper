@@ -65,7 +65,7 @@ public class Sqlite_selectActivity extends Activity {
 
     /**
      * recycleview 的滑倒底部监听事件
-     */
+     */ /*
     public RecyclerView.OnScrollListener onScrollListener = new RecyclerView.OnScrollListener() {
         @Override
         public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
@@ -95,7 +95,7 @@ public class Sqlite_selectActivity extends Activity {
     }
     /**
      * 每行单击事件
-     */
+     *//*
     YellowAdapter.Itemclick clike = new YellowAdapter.Itemclick() {
         @Override
         public void OnItemclick(View view, int position) {
