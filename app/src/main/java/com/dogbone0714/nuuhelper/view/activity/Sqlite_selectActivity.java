@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+/*package com.longer.school.view.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -226,3 +226,4 @@ public class Sqlite_selectActivity extends Activity {
         MiStatInterface.recordPageEnd();
     }
 }
+*/

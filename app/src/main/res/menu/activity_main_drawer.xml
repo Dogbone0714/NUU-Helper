@@ -13,10 +13,10 @@
         <item
             android:id="@+id/nav_set"
             android:icon="@drawable/ic_menu_manage"
-            android:title="設置" />
+            android:title="設定" />
     </group>
 
-    <item android:title="其它">
+    <item android:title="其他選項">
         <menu>
             <item
                 android:id="@+id/nav_share"
@@ -25,7 +25,7 @@
             <item
                 android:id="@+id/nav_infor"
                 android:icon="@drawable/ic_menu_send"
-                android:title="關於App" />
+                android:title="關於app" />
             <item
                 android:id="@+id/nav_comment"
                 android:icon="@drawable/ic_menu_comment"
