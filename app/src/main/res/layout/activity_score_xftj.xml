@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -18,9 +18,9 @@
             app:navigationIcon="?attr/homeAsUpIndicator"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <LinearLayout
@@ -45,7 +45,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="还需"
+                    android:text="還需"
                     android:layout_marginBottom="8dp"
                     android:textColor="#5f95b9"
                     android:textSize="15sp" />
@@ -62,7 +62,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="未通过"
+                    android:text="未通過"
                     android:layout_marginBottom="8dp"
                     android:textColor="#5f95b9"
                     android:textSize="14sp" />
@@ -79,7 +79,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="已获"
+                    android:text="已獲"
                     android:layout_marginBottom="8dp"
                     android:textColor="#5f95b9"
                     android:textSize="15sp" />
@@ -113,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="课程属性"
+                    android:text="課程種類"
                     android:textColor="#5f95b9"
                     android:layout_marginBottom="8dp"
                     android:textSize="15sp" />
@@ -123,4 +123,4 @@
     </LinearLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
