@@ -110,7 +110,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="4dp"
-                            android:text="类型"
+                            android:text="類型"
                             android:textColor="#7d7d7d"
                             android:textSize="16sp" />
 
@@ -135,7 +135,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="4dp"
-                            android:text="单位"
+                            android:text="單位"
                             android:textColor="#7d7d7d"
                             android:textSize="16sp" />
 
@@ -160,7 +160,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="电话"
+                            android:text="電話"
                             android:textSize="16sp" />
 
                         <TextView
