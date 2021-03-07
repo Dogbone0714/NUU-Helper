@@ -9,7 +9,7 @@
     <item
         android:id="@+id/action_delete"
         android:orderInCategory="50"
-        android:title="删除"
+        android:title="刪除"
         app:showAsAction="never" />
 
 </menu>

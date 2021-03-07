@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">成都工业学院</string>
+    <string name="app_name">國立聯合大學</string>
 
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
@@ -12,8 +12,8 @@
     <string name="transition_lost_img" translatable="false">transition_goods_img</string>
     <string name="transition_love_img" translatable="false">transition_love_img</string>
     <string name="transition_pictures_img" translatable="false">transition_pictures_img</string>
-    <string name="login_phone_register"><u>注册帐号</u></string>
-    <string name="login_phone_remember"><u>忘记密码?</u></string>
+    <string name="login_phone_register"><u>註冊帳號</u></string>
+    <string name="login_phone_remember"><u>忘記密碼?</u></string>
     <string name="register_yhxy"><a href="http://hhk.one/NUU-Helper/docs/servicepolicy.html">服務條款</a></string>
 
 </resources>
