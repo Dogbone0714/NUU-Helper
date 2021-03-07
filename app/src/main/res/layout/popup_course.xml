@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="课堂信息"
+        android:text="課堂資訊"
         android:textColor="#6fb4f5"
         android:textSize="16sp" />
 
@@ -35,7 +35,7 @@
             android:drawableLeft="@drawable/course_name"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
-            android:text="课名：" />
+            android:text="課名：" />
 
         <TextView
             android:id="@+id/popup_name"
@@ -43,10 +43,12 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
             android:layout_marginTop="8dp"
-            android:paddingBottom="10dp"
+            android:width="280"
             android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="null"
-            android:textColor="#828282" />
+            android:textColor="#828282"
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -67,8 +69,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
-            android:paddingBottom="10dp"
+            android:width="280"
             android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="null"
             android:textColor="#828282" />
     </LinearLayout>
@@ -84,15 +87,16 @@
             android:drawableLeft="@drawable/course_teacher"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
-            android:text="老师：" />
+            android:text="老師：" />
 
         <TextView
             android:id="@+id/popup_teacher"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
-            android:paddingBottom="10dp"
+            android:width="280"
             android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="null"
             android:textColor="#828282" />
     </LinearLayout>
@@ -108,15 +112,16 @@
             android:drawableLeft="@drawable/course_day"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
-            android:text="周数：" />
+            android:text="周數：" />
 
         <TextView
             android:id="@+id/popup_day"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
-            android:paddingBottom="10dp"
+            android:width="280"
             android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="null"
             android:textColor="#828282" />
     </LinearLayout>
@@ -128,7 +133,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:background="#f16408"
-        android:text="删除本节课"
+        android:text="删除本節课"
         android:textColor="#ffffff"
         android:textSize="14sp" />
 

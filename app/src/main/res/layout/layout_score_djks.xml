@@ -12,7 +12,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginBottom="18dp"
         android:textColor="#3c3c3c"
-        android:text="《红了春秋 绿了战国》"
+        android:text="《年輕人 不講武德 好自為之》"
         android:textSize="16sp" />
 
 </LinearLayout>

@@ -21,7 +21,7 @@
                 android:id="@+id/zhuanzhou_tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Web编程技术"
+                android:text="程式設計與實作(二)"
                 android:textSize="16sp" />
 
             <TextView
@@ -32,7 +32,7 @@
                 android:layout_below="@id/zhuanzhou_tv_name"
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
-                android:text="张启军      1.0学分"                
+                android:text="王能中      3.0學分"
                 android:textColor="#696969"
                 android:textSize="13sp" />
 

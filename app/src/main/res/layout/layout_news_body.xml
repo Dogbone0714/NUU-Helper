@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -27,9 +27,9 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/news_open" />
 
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <LinearLayout
@@ -57,7 +57,7 @@
                     android:layout_marginRight="14dp"
                     android:layout_marginTop="8dp"
                     android:gravity="center_horizontal"
-                    android:text="这个是标题"
+                    android:text="這個是標題"
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
@@ -67,7 +67,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
-                    android:text="成都工业学院 _计算机工程系_软件技术\n\n\n\n\n\n\t\t\t\t\t\t正在载入..." />
+                    android:width="380"
+                    android:text="國立聯合大學 _資訊工程學系\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t正在載入..." />
 
                 <TextView
                     android:id="@+id/news_body_tv_time"
@@ -78,11 +79,11 @@
                     android:layout_marginRight="14dp"
                     android:layout_marginTop="6dp"
                     android:gravity="bottom|right"
-                    android:text="2016-2-16 15:33:34"
+                    android:text="2021-3-7 15:33:34"
                     android:textSize="12dp" />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
