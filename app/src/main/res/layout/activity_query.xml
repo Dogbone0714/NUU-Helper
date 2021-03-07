@@ -54,7 +54,7 @@
                     android:layout_marginLeft="1sp"
                     android:layout_toRightOf="@+id/iv_que_back"
                     android:background="@drawable/search_edittext_shape"
-                    android:hint="10位数学号"
+                    android:hint="學號"
                     android:imeOptions="actionSearch"
                     android:inputType="number"
                     android:maxLength="10"
@@ -280,7 +280,7 @@
                                 android:layout_marginBottom="10dp"
                                 android:layout_marginLeft="24dp"
                                 android:layout_marginTop="10dp"
-                                android:text="专业名称"
+                                android:text="專業名稱"
                                 android:textColor="#8c8c8c"
                                 android:textSize="16sp" />
 
@@ -346,7 +346,7 @@
                                 android:layout_marginBottom="10dp"
                                 android:layout_marginLeft="24dp"
                                 android:layout_marginTop="10dp"
-                                android:text="籍贯"
+                                android:text="出生地"
                                 android:textColor="#8c8c8c"
                                 android:textSize="16sp" />
 
@@ -387,7 +387,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                           <!-- <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="10dp"
@@ -406,7 +406,7 @@
                                 android:layout_marginTop="10dp"
                                 android:text=""
                                 android:textColor="#000000"
-                                android:textSize="16sp" />
+                                android:textSize="16sp" />-->
                         </RelativeLayout>
 
                         <View

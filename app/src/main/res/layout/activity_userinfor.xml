@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -19,9 +19,9 @@
             app:navigationIcon="?attr/homeAsUpIndicator"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <LinearLayout
@@ -31,7 +31,7 @@
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="18dp"
@@ -56,7 +56,7 @@
                     android:layout_marginTop="24dp"
                     android:src="@drawable/head_boy" />
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/card_userinfor"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                     card_view:cardElevation="1dp">
 
 
-                    <TextView
+                    <!--<TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -95,9 +95,9 @@
                         android:layout_marginRight="45dp"
                         android:text="未绑定"
                         android:textColor="#ff0000"
-                        android:textSize="13sp" />
+                        android:textSize="13sp" />-->
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <LinearLayout
                     android:id="@+id/ll_userinfor"
@@ -117,7 +117,7 @@
                             android:layout_height="26dp"
                             android:background="@drawable/lost_people" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
@@ -128,10 +128,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#7e7e7e"
-                                android:hint="昵称"
+                                android:hint="暱稱"
                                 android:maxLength="8"
                                 android:maxLines="1" />
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
                     </LinearLayout>
 
                     <LinearLayout
@@ -173,7 +173,7 @@
                             android:layout_height="26dp"
                             android:background="@drawable/ic_room" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
@@ -184,17 +184,17 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#7e7e7e"
-                                android:hint="寝室号"
+                                android:hint="宿舍房號"
                                 android:maxLength="8"
                                 android:inputType="number"
                                 android:maxLines="1" />
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

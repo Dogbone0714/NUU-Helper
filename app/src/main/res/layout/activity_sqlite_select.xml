@@ -28,7 +28,7 @@
                 android:layout_marginRight="6dp"
                 android:background="#00ffffff"
                 android:onClick="onclick_select"
-                android:text="搜索"
+                android:text="搜尋"
                 android:textColor="#00a5e0"
                 android:textSize="15sp" />
 
@@ -44,7 +44,7 @@
                 android:background="@drawable/search_edittext_shape2"
                 android:drawableLeft="@drawable/search_icon2"
                 android:drawablePadding="5dp"
-                android:hint="输入关键词"
+                android:hint="輸入關鍵字"
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
                 android:textSize="15sp" />
@@ -176,7 +176,7 @@
             android:text="    感谢 “世纪佳缘”、“珍爱网” 提供数据支持！"
             android:textSize="10sp" />
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycle_yellow"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
