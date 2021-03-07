@@ -1,15 +1,15 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
-import com.longer.school.Application;
-import com.longer.school.R;
-import com.longer.school.utils.FileTools;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.FileTools;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

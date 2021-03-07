@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -16,11 +16,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.longer.school.Application;
-import com.longer.school.R;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.LoginService;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

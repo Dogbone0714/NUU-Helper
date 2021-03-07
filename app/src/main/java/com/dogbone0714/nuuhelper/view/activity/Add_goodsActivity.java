@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.Manifest;
 import android.app.Activity;
@@ -10,11 +10,11 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -29,13 +29,13 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.longer.school.Application;
-import com.longer.school.R;
-import com.longer.school.adapter.Image_9Adapter;
-import com.longer.school.modle.bean.Good;
-import com.longer.school.modle.bean.User;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.Toast;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.adapter.Image_9Adapter;
+import com.dogbone0714.nuuhelper.modle.bean.Good;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
 import com.yancy.imageselector.ImageConfig;
 import com.yancy.imageselector.ImageLoader;
 import com.yancy.imageselector.ImageSelector;
@@ -53,12 +53,6 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.datatype.BmobFile;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.LogInListener;
-import cn.bmob.v3.listener.SaveListener;
-import cn.bmob.v3.listener.UploadBatchListener;
 
 /**
  * Created by Axu on 2016/9/23.

@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Message;
-import android.support.v7.widget.CardView;
+import androidx.cardview.widget.CardView;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -20,18 +20,18 @@ import android.widget.FrameLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.longer.school.Application;
-import com.longer.school.R;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
 import com.blankj.utilcode.utils.TimeUtils;
-import com.longer.school.modle.bean.Appinfor;
-import com.longer.school.modle.bean.Love;
-import com.longer.school.modle.bean.User;
-import com.longer.school.modle.biz.UserBiz;
-import com.longer.school.utils.LoginService;
-import com.longer.school.utils.Toast;
-import com.shitou.googleplay.lib.randomlayout.StellarMap;
-import com.shitou.googleplay.lib.randomlayout.StellarMap.Adapter;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.modle.bean.Appinfor;
+import com.dogbone0714.nuuhelper.modle.bean.Love;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.modle.biz.UserBiz;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+import com.dogbone0714.nuuhelper.utils.Toast;
+//import com.shitou.googleplay.lib.randomlayout.StellarMap;
+//import com.shitou.googleplay.lib.randomlayout.StellarMap.Adapter;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.ArrayList;
 import java.util.List;

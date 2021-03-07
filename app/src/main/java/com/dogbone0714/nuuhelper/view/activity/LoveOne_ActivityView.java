@@ -1,14 +1,14 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -17,17 +17,17 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.blankj.utilcode.utils.TimeUtils;
-import com.longer.school.Application;
-import com.longer.school.R;
-import com.longer.school.modle.bean.Love;
-import com.longer.school.modle.bean.LoveComment;
-import com.longer.school.presenter.LoveOneActivityPresenter;
-import com.longer.school.utils.FullyLinearLayoutManager;
-import com.longer.school.utils.PublicTools;
-import com.longer.school.utils.Toast;
-import com.longer.school.view.iview.ILoveOne_ActivityView;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.modle.bean.Love;
+import com.dogbone0714.nuuhelper.modle.bean.LoveComment;
+import com.dogbone0714.nuuhelper.presenter.LoveOneActivityPresenter;
+import com.dogbone0714.nuuhelper.utils.FullyLinearLayoutManager;
+import com.dogbone0714.nuuhelper.utils.PublicTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
+import com.dogbone0714.nuuhelper.view.iview.ILoveOne_ActivityView;
 import com.sackcentury.shinebuttonlib.ShineButton;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.ArrayList;
 import java.util.List;

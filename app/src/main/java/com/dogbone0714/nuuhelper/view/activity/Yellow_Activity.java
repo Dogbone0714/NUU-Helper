@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+/*package com.longer.school.view.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -26,6 +26,7 @@ import butterknife.OnClick;
 /**
  * Created by Axu on 2016/9/25.
  */
+/*
 public class Yellow_Activity extends AppCompatActivity {
     public Yellow yellow;
     private int[] ali = new int[]{R.drawable.ali0, R.drawable.ali1, R.drawable.ali3, R.drawable.ali5, R.drawable.ali6, R.drawable.ali7, R.drawable.ali8, R.drawable.ali9};
@@ -102,3 +103,4 @@ public class Yellow_Activity extends AppCompatActivity {
         MiStatInterface.recordPageEnd();
     }
 }
+*/

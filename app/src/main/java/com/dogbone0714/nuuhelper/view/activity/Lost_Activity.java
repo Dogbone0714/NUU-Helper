@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,23 +28,23 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.jude.rollviewpager.RollPagerView;
 import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 import com.jude.rollviewpager.hintview.ColorPointHintView;
-import com.longer.school.Application;
-import com.longer.school.modle.bean.Lost;
-import com.longer.school.R;
-import com.longer.school.utils.CopyText;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.PublicTools;
-import com.longer.school.utils.Toast;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.Lost;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.CopyText;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.PublicTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.ArrayList;
 
 import butterknife.Bind;
-import butterknife.ButterKnife;
+/*import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
-
+*/
 /**
  * Created by Axu on 2016/9/18.
  */

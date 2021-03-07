@@ -1,37 +1,37 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 
-import com.longer.school.Application;
-import com.longer.school.modle.bean.Good;
-import com.longer.school.modle.bean.Lost;
-import com.longer.school.modle.bean.User;
-import com.longer.school.R;
-import com.longer.school.adapter.GoodsAdapter;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.Toast;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.Good;
+import com.dogbone0714.nuuhelper.modle.bean.Lost;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.adapter.GoodsAdapter;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
 import jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout;
-
+*/
 /**
  * Created by Axu on 2016/9/24.
  */

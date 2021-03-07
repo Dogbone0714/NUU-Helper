@@ -1,4 +1,4 @@
-package com.longer.school.view.activity;
+package com.dogbone0714.nuuhelper.view.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,23 +6,23 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 
-import com.longer.school.Application;
-import com.longer.school.modle.bean.Lost;
-import com.longer.school.modle.bean.News;
-import com.longer.school.R;
-import com.longer.school.adapter.NewsAdapter;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.Toast;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.Lost;
+import com.dogbone0714.nuuhelper.modle.bean.News;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.adapter.NewsAdapter;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
