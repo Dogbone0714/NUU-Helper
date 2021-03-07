@@ -45,7 +45,7 @@
                     android:ellipsize="end"
                     android:gravity="center_horizontal"
                     android:maxLines="2"
-                    android:text="成功助手V"
+                    android:text="聯大助手"
                     android:textColor="#ffffff"
                     android:textSize="20sp" />
 
@@ -60,7 +60,7 @@
                 app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 
-        </android.support.design.widget.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
 
@@ -97,7 +97,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:gravity="center_horizontal"
-                        android:text="介绍与帮助"
+                        android:text="介紹與幫助"
                         android:textColor="#2e2e2e"
                         android:textSize="16sp" />
 
@@ -105,7 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:text="一个成都工业学院的民间App"
+                        android:text="一個國立聯合大學的民間APP"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
@@ -114,7 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
-                        android:text="一个成都工业学院的民间App，该App为原生开发，MVP + MD开发模式，通过抓包的形式获取信息，希望大家喜欢！"
+                        android:text="一個國立聯合大學的民間APP，該APP為原生開發，MVP + MD開發模式，通過抓包的方式獲取訊息，希望大家喜歡！"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -143,7 +143,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:gravity="center_horizontal"
-                        android:text="关于我们"
+                        android:text="關於我們"
                         android:textColor="#2e2e2e"
                         android:textSize="16sp" />
 
@@ -152,7 +152,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginBottom="4dp"
-                        android:text="成工院Android愚公移山"
+                        android:text="聯大助手開發團隊為109級資工系的3人小組"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
@@ -166,17 +166,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="QQ群： "
+                            android:text="Facebook粉專：NUU 聯大助手 "
                             android:textColor="#7d7d7d"
                             android:textSize="16sp" />
 
-                        <TextView
-                            android:id="@+id/tv_info_qq"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="140323424"
-                            android:textColor="#000eff"
-                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -189,17 +182,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="    QQ： "
+                            android:text="開發人員名單 ：康皓雄(康康)、A夢、祈 "
                             android:textColor="#7d7d7d"
                             android:textSize="16sp" />
 
-                        <TextView
-                            android:id="@+id/tv_info_qqnum"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="1114070859"
-                            android:textColor="#000eff"
-                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <!--<TextView-->
@@ -237,7 +223,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="检查更新"
+                    android:text="檢查更新"
                     android:textSize="16sp" />
 
 
@@ -270,7 +256,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:gravity="center_horizontal"
-                        android:text="功能介绍"
+                        android:text="功能介紹"
                         android:textColor="#2e2e2e"
                         android:textSize="16sp" />
 
@@ -279,7 +265,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
                         android:layout_marginLeft="30dp"
-                        android:text="1.消费记录\n2.课表查询\n3.期末成绩查询\n4.校车\n5.校历\n6.跳蚤市场\n7.失物招领\n8.校园公告\n9.学校黄页\n10.一键续借图书\n11.查询图书信息\n12.查询借阅记录\n13.学分统计\n14.学生信息查询\n15.一卡通查询"
+                        android:text="1.課表查詢\n2.期末成績查詢\n3.校車\n4.行事曆\n5.二手市場\n6.失物招領\n7.校園公告\n8.校園電話\n9.圖書查詢\n10.學分查詢\n"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
@@ -307,7 +293,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:gravity="center_horizontal"
-                        android:text="开源项目"
+                        android:text="開源項目"
                         android:textColor="#2e2e2e"
                         android:textSize="16sp" />
 
