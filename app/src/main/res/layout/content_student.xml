@@ -182,7 +182,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="40dp"
                     android:layout_marginTop="10dp"
-                    android:text="7、学生应征入伍服义务兵役国家资助和退役士兵学费资助办理"
+                    android:text="7、紀念鄧立登先生及鄧劉治妹女士清寒獎助學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -203,26 +203,6 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="8、學生生活助學金"
-                    android:textColor="#202020"
-                    android:textSize="14sp" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/card_student_9"
-                style="@style/menu.cardview">
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_gravity="center_vertical|right"
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/ic_right" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="9、紀念鄧立登先生及鄧劉治妹女士清寒獎助學金"
                     android:textColor="#202020"
                     android:textSize="14sp" />
             </androidx.cardview.widget.CardView>
@@ -257,7 +237,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:gravity="center"
-                        android:text="学生证及磁卡的补办流程"
+                        android:text="學生證補辦流程"
                         android:textColor="#2e2e2e"
                         android:textSize="17sp" />
 
@@ -265,7 +245,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="1. 准备一寸照片，无照片不进行学生证补办；"
+                        android:text="1.遺失一卡通學生證者掛失申請：使用電腦至學校首頁，選擇學生身份，至常用連結資訊一覽表點選
+　　「數位學生證掛失系統http://sso.nuu.edu.tw/login.php」申請掛失。"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
@@ -273,15 +254,26 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="2. 补办学生证及磁卡，首先在财务处（红楼2楼）缴费，拿着票据然后到学生事务委员会办公室（长虹会堂 208）补办学生证及磁卡；"
+                        android:text="2.遺失悠遊卡學生證者掛失申請：親至八甲校區教務處註冊組填寫「校園學生證退費申請單」，
+　　由行政人員轉傳至悠遊卡公司辦理掛失。"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
-                    <TextView
+                    <!--<TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:text="收费标准：学生证：10元；\n                    磁    卡：  7元；"
+                        android:text="完成掛失即可申請補發學生證：使用電腦至學校首頁，選擇學生身份，登入校務行政學生入口網，
+　　點選「成績單及證明文件網路申請」進行申請，並需繳畢工本費200元，始計工作天。"
+                        android:textColor="#7d7d7d"
+                        android:textSize="14sp" />-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="3. 完成掛失即可申請補發學生證：使用電腦至學校首頁，選擇學生身份，登入校務行政學生入口網，
+　　點選「成績單及證明文件網路申請」進行申請，並需繳畢工本費200元，始計工作天。；"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
@@ -289,25 +281,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="3. 如果学生的乘车区间和身份证上的不一样，需要有一份证明，说明不一样的原因； 证明为辅导员或父母工作公司所开；"
+                        android:text="4. 三日工作天後，二坪校區學生請至所屬系所領取，八甲校區學生請至教務處註冊組領取。"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:text="4. 在学生事务委员会办公室办理时需填写学生证及磁卡登记表；"
-                        android:textColor="#7d7d7d"
-                        android:textSize="14sp" />
-
-                    <TextView
+                    <!--<TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="5. 补办后在下一周周二以后来学生事务委员会办公室领取，并签字；"
                         android:textColor="#7d7d7d"
-                        android:textSize="14sp" />
+                        android:textSize="14sp" />-->
 
                 </LinearLayout>
 
@@ -326,7 +310,7 @@
                 card_view:cardCornerRadius="5dp"
                 card_view:cardElevation="5dp">
 
-                <LinearLayout
+                <!--<LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -351,7 +335,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="周一 -- 周四：9:00~11:50   14:00~17:00\n             周五：9:00~11:50   14:00~15:00"
+                        android:text="周一 - 周四：9:00~11:50   14:00~17:00\n             周五：9:00~11:50   14:00~15:00"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
@@ -438,4 +422,4 @@
             android:layout_marginTop="20dp" />
     </LinearLayout>
 
-</androidx.core.widget.NestedScrollView>
+</androidx.core.widget.NestedScrollView>-->
