@@ -27,6 +27,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:text="求购" />
+            android:text="求購" />
     </RadioGroup>
 </LinearLayout>
