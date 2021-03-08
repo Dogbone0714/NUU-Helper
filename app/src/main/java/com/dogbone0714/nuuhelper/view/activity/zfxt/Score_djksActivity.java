@@ -1,24 +1,24 @@
-package com.longer.school.view.activity.zfxt;
+package com.dogbone0714.nuuhelper.view.activity.zfxt;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.longer.school.Application;
-import com.longer.school.R;
-import com.longer.school.R.id;
-import com.longer.school.R.layout;
-import com.longer.school.utils.LoginService;
-import com.longer.school.utils.StreamTools;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.R.id;
+import com.dogbone0714.nuuhelper.R.layout;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+import com.dogbone0714.nuuhelper.utils.StreamTools;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.List;
 

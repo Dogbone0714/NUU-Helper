@@ -1,11 +1,11 @@
-package com.longer.school.view.activity.zfxt;
+package com.dogbone0714.nuuhelper.view.activity.zfxt;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,11 +15,11 @@ import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.longer.school.Application;
-import com.longer.school.modle.bean.CourseClass;
-import com.longer.school.R;
-import com.longer.school.utils.FileTools;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.CourseClass;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.ArrayList;
 import java.util.List;

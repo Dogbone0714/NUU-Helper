@@ -1,17 +1,17 @@
-package com.longer.school.view.activity.zfxt;
+package com.dogbone0714.nuuhelper.view.activity.zfxt;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.BottomSheetDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -22,13 +22,13 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.longer.school.Application;
-import com.longer.school.modle.bean.ScoreClass;
-import com.longer.school.R;
-import com.longer.school.adapter.Score_zxcjAdapter;
-import com.longer.school.utils.LoginService;
-import com.longer.school.utils.StreamTools;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.ScoreClass;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.adapter.Score_zxcjAdapter;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+import com.dogbone0714.nuuhelper.utils.StreamTools;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.ArrayList;
 import java.util.HashMap;
