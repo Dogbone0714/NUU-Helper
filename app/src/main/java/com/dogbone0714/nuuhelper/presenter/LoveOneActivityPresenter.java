@@ -9,7 +9,7 @@ import com.dogbone0714.nuuhelper.modle.biz.LoveBiz;
 import com.dogbone0714.nuuhelper.modle.biz.LoveCommentBiz;
 import com.dogbone0714.nuuhelper.utils.PublicTools;
 import com.dogbone0714.nuuhelper.utils.Toast;
-import com.longer.school.view.iview.ILoveOne_ActivityView;
+import com.dogbone0714.nuuhelper.view.iview.ILoveOne_ActivityView;
 
 import java.util.List;
 

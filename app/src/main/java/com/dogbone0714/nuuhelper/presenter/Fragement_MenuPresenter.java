@@ -19,8 +19,8 @@ import com.dogbone0714.nuuhelper.modle.biz.SchoolMesBiz;
 import com.dogbone0714.nuuhelper.utils.LoginService;
 import com.dogbone0714.nuuhelper.utils.PublicTools;
 import com.dogbone0714.nuuhelper.utils.Toast;
-import com.longer.school.view.iview.IFragment_MenuView;
-import com.longer.school.view.iview.ILoveOne_ActivityView;
+import com.dogbone0714.nuuhelper.view.iview.IFragment_MenuView;
+import com.dogbone0714.nuuhelper.view.iview.ILoveOne_ActivityView;
 
 import java.util.List;
 
