@@ -1,10 +1,10 @@
-package com.longer.school.view.iview;
+package com.dogbone0714.nuuhelper.view.iview;
 
 import android.content.Context;
 import android.widget.EditText;
 
-import com.longer.school.modle.bean.Love;
-import com.longer.school.modle.bean.LoveComment;
+import com.dogbone0714.nuuhelper.modle.bean.Love;
+import com.dogbone0714.nuuhelper.modle.bean.LoveComment;
 
 import java.util.List;
 

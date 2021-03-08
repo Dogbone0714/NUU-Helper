@@ -1,7 +1,7 @@
-package com.longer.school.view.iview;
+package com.dogbone0714.nuuhelper.view.iview;
 
-import com.longer.school.modle.bean.Food;
-import com.longer.school.modle.bean.Store;
+import com.dogbone0714.nuuhelper.modle.bean.Food;
+import com.dogbone0714.nuuhelper.modle.bean.Store;
 
 import java.util.List;
 

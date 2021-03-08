@@ -1,9 +1,9 @@
-package com.longer.school.view.iview;
+package com.dogbone0714.nuuhelper.view.iview;
 
-import com.longer.school.modle.bean.Good;
-import com.longer.school.modle.bean.Love;
-import com.longer.school.modle.bean.PicHeadTip;
-import com.longer.school.modle.bean.SchoolMes;
+import com.dogbone0714.nuuhelper.modle.bean.Good;
+import com.dogbone0714.nuuhelper.modle.bean.Love;
+import com.dogbone0714.nuuhelper.modle.bean.PicHeadTip;
+import com.dogbone0714.nuuhelper.modle.bean.SchoolMes;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.longer.school.view.iview;
+package com.dogbone0714.nuuhelper.view.iview;
 
 /**
  * Created by longer on 2017/4/18.
