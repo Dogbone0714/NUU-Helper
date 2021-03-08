@@ -1,4 +1,4 @@
-package com.longer.school.view.fragment;
+package com.dogbone0714.nuuhelper.view.fragment;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -6,14 +6,14 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
+import androidx.core.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v4.app.Fragment;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,20 +21,20 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
-import com.longer.school.modle.bean.Lost;
-import com.longer.school.R;
-import com.longer.school.view.activity.Lost_Activity;
-import com.longer.school.view.activity.MainActivity;
-import com.longer.school.adapter.LostAdapter;
-import com.longer.school.utils.Toast;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.modle.bean.Lost;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.view.activity.Lost_Activity;
+import com.dogbone0714.nuuhelper.view.activity.MainActivity;
+import com.dogbone0714.nuuhelper.adapter.LostAdapter;
+import com.dogbone0714.nuuhelper.utils.Toast;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-
+*/
 /**
  * Created by Axu on 2016/9/17.
  */
