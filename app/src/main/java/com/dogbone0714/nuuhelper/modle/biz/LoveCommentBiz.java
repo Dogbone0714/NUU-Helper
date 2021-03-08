@@ -1,22 +1,22 @@
-package com.longer.school.modle.biz;
+package com.dogbone0714.nuuhelper.modle.biz;
 
 import android.util.Log;
 
-import com.longer.school.Application;
-import com.longer.school.adapter.GoodsAdapter;
-import com.longer.school.modle.bean.Good;
-import com.longer.school.modle.bean.Love;
-import com.longer.school.modle.bean.LoveComment;
-import com.longer.school.utils.Toast;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.adapter.GoodsAdapter;
+import com.dogbone0714.nuuhelper.modle.bean.Good;
+import com.dogbone0714.nuuhelper.modle.bean.Love;
+import com.dogbone0714.nuuhelper.modle.bean.LoveComment;
+import com.dogbone0714.nuuhelper.utils.Toast;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
 import cn.bmob.v3.listener.UpdateListener;
-
+*/
 /**
  * Created by longer on 2017/4/13.
  */

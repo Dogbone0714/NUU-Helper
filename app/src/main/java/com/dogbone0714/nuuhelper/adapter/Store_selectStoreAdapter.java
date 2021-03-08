@@ -1,8 +1,8 @@
 
-package com.longer.school.adapter;
+package com.dogbone0714.nuuhelper.adapter;
 
 import android.graphics.Color;
-import android.support.v7.widget.CardView;
+import androidx.cardview.widget.CardView;
 import android.support.v7.widget.RecyclerView.Adapter;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.longer.school.R;
-import com.longer.school.modle.bean.Store;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.modle.bean.Store;
 
 import java.util.ArrayList;
 import java.util.List;

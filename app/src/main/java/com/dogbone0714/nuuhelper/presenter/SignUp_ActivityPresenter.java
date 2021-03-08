@@ -1,10 +1,10 @@
-package com.longer.school.presenter;
+package com.dogbone0714.nuuhelper.presenter;
 
-import com.longer.school.modle.bean.SignUp;
-import com.longer.school.modle.bean.User;
-import com.longer.school.modle.biz.SignUpBiz;
-import com.longer.school.view.activity.SignUp_Activity;
-import com.longer.school.view.iview.ISignUpView;
+import com.dogbone0714.nuuhelper.modle.bean.SignUp;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.modle.biz.SignUpBiz;
+import com.dogbone0714.nuuhelper.view.activity.SignUp_Activity;
+import com.dogbone0714.nuuhelper.view.iview.ISignUpView;
 
 /**
  * Created by longer on 2017/4/18.

@@ -1,9 +1,9 @@
-package com.longer.school.adapter;
+package com.dogbone0714.nuuhelper.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
@@ -15,8 +15,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.longer.school.R;
-import com.longer.school.modle.bean.Good;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.modle.bean.Good;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package com.longer.school.modle.bean;
+package com.dogbone0714.nuuhelper.modle.bean;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobObject;
-
+*/
 /**
  * 表白墙 对应的评论表
  * Created by longer on 2017/4/13.

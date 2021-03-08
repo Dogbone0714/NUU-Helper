@@ -1,7 +1,7 @@
 package com.dogbone0714.nuuhelper.modle.bean;
-
+/*
 import cn.bmob.v3.BmobObject;
-
+*/
 /**
  * Created by longer on 2016/8/4.
  * 接受系统消息

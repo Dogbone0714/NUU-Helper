@@ -1,15 +1,15 @@
-package com.longer.school.presenter;
+package com.dogbone0714.nuuhelper.presenter;
 
 import android.util.Log;
 
-import com.longer.school.modle.bean.Food;
-import com.longer.school.modle.bean.Store;
-import com.longer.school.modle.biz.FoodBiz;
-import com.longer.school.modle.biz.StoreBiz;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.Toast;
-import com.longer.school.view.activity.Store_Activity;
-import com.longer.school.view.iview.IStore_ActivityView;
+import com.dogbone0714.nuuhelper.modle.bean.Food;
+import com.dogbone0714.nuuhelper.modle.bean.Store;
+import com.dogbone0714.nuuhelper.modle.biz.FoodBiz;
+import com.dogbone0714.nuuhelper.modle.biz.StoreBiz;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
+import com.dogbone0714.nuuhelper.view.activity.Store_Activity;
+import com.dogbone0714.nuuhelper.view.iview.IStore_ActivityView;
 
 import java.util.List;
 

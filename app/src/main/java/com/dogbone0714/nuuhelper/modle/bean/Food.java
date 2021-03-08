@@ -1,10 +1,10 @@
-package com.longer.school.modle.bean;
+package com.dogbone0714.nuuhelper.modle.bean;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobObject;
 import cn.bmob.v3.datatype.BmobFile;
-
+*/
 /**
  * 同学的店的商品类
  * Created by longer on 2017/5/5.

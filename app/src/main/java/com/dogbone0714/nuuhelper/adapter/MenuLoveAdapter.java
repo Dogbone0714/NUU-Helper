@@ -1,4 +1,4 @@
-package com.longer.school.adapter;
+/*package com.longer.school.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -31,6 +31,7 @@ import butterknife.ButterKnife;
 /**
  * 主界面 表白墙的适配器
  */
+/*
 public class MenuLoveAdapter extends RecyclerView.Adapter<MenuLoveAdapter.MainCardHolder> {
 
     public List<Love> list = null;
@@ -181,3 +182,4 @@ public class MenuLoveAdapter extends RecyclerView.Adapter<MenuLoveAdapter.MainCa
         }
     }
 }
+*/

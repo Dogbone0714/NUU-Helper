@@ -1,14 +1,14 @@
-package com.longer.school.presenter;
+package com.dogbone0714.nuuhelper.presenter;
 
 
 import android.util.Log;
 
-import com.longer.school.modle.bean.Love;
-import com.longer.school.modle.bean.LoveComment;
-import com.longer.school.modle.biz.LoveBiz;
-import com.longer.school.modle.biz.LoveCommentBiz;
-import com.longer.school.utils.PublicTools;
-import com.longer.school.utils.Toast;
+import com.dogbone0714.nuuhelper.modle.bean.Love;
+import com.dogbone0714.nuuhelper.modle.bean.LoveComment;
+import com.dogbone0714.nuuhelper.modle.biz.LoveBiz;
+import com.dogbone0714.nuuhelper.modle.biz.LoveCommentBiz;
+import com.dogbone0714.nuuhelper.utils.PublicTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
 import com.longer.school.view.iview.ILoveOne_ActivityView;
 
 import java.util.List;

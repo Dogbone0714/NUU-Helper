@@ -1,12 +1,12 @@
-package com.longer.school.presenter;
+package com.dogbone0714.nuuhelper.presenter;
 
 import android.util.Log;
 import android.view.View;
 
-import com.longer.school.Application;
-import com.longer.school.utils.FileTools;
-import com.longer.school.view.activity.User_Activity;
-import com.longer.school.view.iview.IUserActivityView;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.view.activity.User_Activity;
+import com.dogbone0714.nuuhelper.view.iview.IUserActivityView;
 
 /**
  * Created by longer on 2017/4/27.

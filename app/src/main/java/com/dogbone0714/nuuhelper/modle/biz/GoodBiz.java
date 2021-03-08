@@ -1,8 +1,8 @@
-package com.longer.school.modle.biz;
+package com.dogbone0714.nuuhelper.modle.biz;
 
 import android.content.Intent;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ActivityOptionsCompat;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -10,17 +10,17 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.longer.school.R;
-import com.longer.school.modle.bean.Good;
-import com.longer.school.utils.Toast;
-import com.longer.school.view.activity.Goods_Activity;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.modle.bean.Good;
+import com.dogbone0714.nuuhelper.utils.Toast;
+import com.dogbone0714.nuuhelper.view.activity.Goods_Activity;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-
+*/
 /**
  * Created by longer on 2017/4/23.
  */

@@ -1,20 +1,20 @@
-package com.longer.school.presenter;
+package com.dogbone0714.nuuhelper.presenter;
 
 import android.util.Log;
 
 import com.blankj.utilcode.utils.RegexUtils;
-import com.longer.school.Application;
-import com.longer.school.modle.bean.User;
-import com.longer.school.modle.biz.UserBiz;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.Toast;
-import com.longer.school.view.activity.Register_Activity;
-import com.longer.school.view.activity.User_Activity;
-import com.longer.school.view.iview.IRegister_ActivityView;
-import com.longer.school.view.iview.IUserActivityView;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.modle.biz.UserBiz;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.Toast;
+import com.dogbone0714.nuuhelper.view.activity.Register_Activity;
+import com.dogbone0714.nuuhelper.view.activity.User_Activity;
+import com.dogbone0714.nuuhelper.view.iview.IRegister_ActivityView;
+import com.dogbone0714.nuuhelper.view.iview.IUserActivityView;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobSMS;
 import cn.bmob.v3.BmobUser;
@@ -25,7 +25,7 @@ import cn.bmob.v3.listener.LogInListener;
 import cn.bmob.v3.listener.QueryListener;
 import cn.bmob.v3.listener.SaveListener;
 import cn.bmob.v3.listener.UpdateListener;
-
+*/
 /**
  * Created by longer on 2017/4/27.
  */

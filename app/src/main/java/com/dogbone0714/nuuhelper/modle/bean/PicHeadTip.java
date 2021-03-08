@@ -1,9 +1,9 @@
-package com.longer.school.modle.bean;
+package com.dogbone0714.nuuhelper.modle.bean;
 
 import java.util.List;
 
-import cn.bmob.v3.BmobObject;
-import cn.bmob.v3.datatype.BmobFile;
+//import cn.bmob.v3.BmobObject;
+//import cn.bmob.v3.datatype.BmobFile;
 
 /**
  * 主界面顶部的图片，一般有6个 类

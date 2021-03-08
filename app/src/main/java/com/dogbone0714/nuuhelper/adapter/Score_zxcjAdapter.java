@@ -1,5 +1,5 @@
 
-package com.longer.school.adapter;
+package com.dogbone0714.nuuhelper.adapter;
 
 import android.support.v7.widget.RecyclerView.Adapter;
 import android.support.v7.widget.RecyclerView.ViewHolder;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.longer.school.R;
+import com.dogbone0714.nuuhelper.R;
 
 import java.util.List;
 

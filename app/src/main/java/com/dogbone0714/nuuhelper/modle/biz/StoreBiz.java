@@ -1,16 +1,16 @@
-package com.longer.school.modle.biz;
+package com.dogbone0714.nuuhelper.modle.biz;
 
 import android.util.Log;
 
-import com.longer.school.modle.bean.Store;
+import com.dogbone0714.nuuhelper.modle.bean.Store;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-
+*/
 /**
  * Created by longer on 2017/5/11.
  */
