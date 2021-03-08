@@ -1,22 +1,22 @@
-package com.longer.school.modle.biz;
+package com.dogbone0714.nuuhelper.modle.biz;
 
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.longer.school.R;
-import com.longer.school.modle.bean.SchoolMes;
-import com.longer.school.modle.bean.User;
-import com.longer.school.utils.FileTools;
-import com.longer.school.utils.PublicTools;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.modle.bean.SchoolMes;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.utils.PublicTools;
 
 import java.util.List;
-
+/*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.UpdateListener;
-
+*/
 /**
  * Created by longer on 2017/4/17.
  */

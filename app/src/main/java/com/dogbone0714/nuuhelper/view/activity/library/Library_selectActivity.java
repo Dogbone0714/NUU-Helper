@@ -1,4 +1,4 @@
-package com.longer.school.view.activity.library;
+package com.dogbone0714.nuuhelper.view.activity.library;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,9 +9,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-import com.longer.school.R;
-import com.longer.school.utils.LoginService;
-import com.xiaomi.mistatistic.sdk.MiStatInterface;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.LoginService;
+//import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import android.app.Activity;
 import android.content.Context;

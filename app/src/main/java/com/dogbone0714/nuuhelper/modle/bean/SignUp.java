@@ -1,8 +1,8 @@
-package com.longer.school.modle.bean;
+package com.dogbone0714.nuuhelper.modle.bean;
 
 import java.util.List;
 
-import cn.bmob.v3.BmobObject;
+//import cn.bmob.v3.BmobObject;
 
 /**
  * 报名表

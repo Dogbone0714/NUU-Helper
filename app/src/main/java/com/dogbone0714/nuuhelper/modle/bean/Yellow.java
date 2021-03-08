@@ -1,4 +1,4 @@
-package com.longer.school.modle.bean;
+/*package com.longer.school.modle.bean;
 
 import cn.bmob.v3.BmobObject;
 
@@ -6,6 +6,7 @@ import cn.bmob.v3.BmobObject;
  * 学校黄页类
  * Created by longer on 2016/9/14.
  */
+/*
 public class Yellow extends BmobObject {
     private String type;//类型
     private String tel;
@@ -71,3 +72,4 @@ public class Yellow extends BmobObject {
         this.dw = dw;
     }
 }
+*/

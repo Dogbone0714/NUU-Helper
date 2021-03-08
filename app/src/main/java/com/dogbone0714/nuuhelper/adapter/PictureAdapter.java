@@ -1,15 +1,15 @@
-package com.longer.school.adapter;
+package com.dogbone0714.nuuhelper.adapter;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.longer.school.R;
-import com.longer.school.utils.PinchImageView;
-import com.longer.school.utils.PinchImageViewPager;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.PinchImageView;
+import com.dogbone0714.nuuhelper.utils.PinchImageViewPager;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

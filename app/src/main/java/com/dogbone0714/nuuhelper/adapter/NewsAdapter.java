@@ -1,15 +1,15 @@
-package com.longer.school.adapter;
+package com.dogbone0714.nuuhelper.adapter;
 
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.longer.school.modle.bean.CardClass;
-import com.longer.school.modle.bean.News;
-import com.longer.school.R;
+import com.dogbone0714.nuuhelper.modle.bean.CardClass;
+import com.dogbone0714.nuuhelper.modle.bean.News;
+import com.dogbone0714.nuuhelper.R;
 
 import java.util.List;
 

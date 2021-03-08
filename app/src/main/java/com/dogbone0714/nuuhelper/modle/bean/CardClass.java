@@ -1,4 +1,4 @@
-package com.longer.school.modle.bean;
+package com.dogbone0714.nuuhelper.modle.bean;
 
 /**
  * 一卡通的消费记录

@@ -1,4 +1,4 @@
-package com.longer.school.view.activity.library;
+package com.dogbone0714.nuuhelper.view.activity.library;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.longer.school.R;
-import com.longer.school.utils.FileTools;
+import com.dogbone0714.nuuhelper.R;
+import com.dogbone0714.nuuhelper.utils.FileTools;
 
 public class Fragment_Library_menu extends Fragment {
 

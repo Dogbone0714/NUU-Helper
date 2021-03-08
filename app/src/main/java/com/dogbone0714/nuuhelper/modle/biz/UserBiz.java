@@ -1,13 +1,13 @@
-package com.longer.school.modle.biz;
+package com.dogbone0714.nuuhelper.modle.biz;
 
 import android.util.Log;
 
-import com.longer.school.modle.bean.User;
-import com.longer.school.utils.FileTools;
-
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+/*
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
-
+*/
 /**
  * Created by longer on 2017/4/17.
  */

@@ -1,8 +1,8 @@
-package com.longer.school.modle.bean;
-
+package com.dogbone0714.nuuhelper.modle.bean;
+/*
 import cn.bmob.v3.BmobObject;
 import cn.bmob.v3.datatype.BmobFile;
-
+*/
 /**
  * 失物招领 类
  * Created by longer on 2016/9/14.

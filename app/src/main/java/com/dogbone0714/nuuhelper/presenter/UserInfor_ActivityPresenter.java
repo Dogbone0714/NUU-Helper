@@ -1,13 +1,13 @@
-package com.longer.school.presenter;
+package com.dogbone0714.nuuhelper.presenter;
 
-import com.longer.school.Application;
-import com.longer.school.modle.bean.User;
-import com.longer.school.modle.biz.UserBiz;
-import com.longer.school.utils.FileTools;
-import com.longer.school.view.activity.UserInfor_Activity;
-import com.longer.school.view.activity.User_Activity;
-import com.longer.school.view.iview.IUserActivityView;
-import com.longer.school.view.iview.IUserInfor_Activity;
+import com.dogbone0714.nuuhelper.Application;
+import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.dogbone0714.nuuhelper.modle.biz.UserBiz;
+import com.dogbone0714.nuuhelper.utils.FileTools;
+import com.dogbone0714.nuuhelper.view.activity.UserInfor_Activity;
+import com.dogbone0714.nuuhelper.view.activity.User_Activity;
+import com.dogbone0714.nuuhelper.view.iview.IUserActivityView;
+import com.dogbone0714.nuuhelper.view.iview.IUserInfor_Activity;
 
 /**
  * Created by longer on 2017/4/27.

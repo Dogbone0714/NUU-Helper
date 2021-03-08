@@ -1,6 +1,6 @@
-package com.longer.school.view.activity.library;
+package com.dogbone0714.nuuhelper.view.activity.library;
 
-import com.longer.school.R;
+import com.dogbone0714.nuuhelper.R;
 
 import android.app.Fragment;
 import android.os.Bundle;
