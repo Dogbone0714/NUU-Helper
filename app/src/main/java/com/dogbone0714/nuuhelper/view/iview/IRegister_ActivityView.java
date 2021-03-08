@@ -1,6 +1,6 @@
-package com.dogbone0714.nuuhelper.view.iview;
+package com.longer.school.view.iview;
 
-import com.dogbone0714.nuuhelper.modle.bean.User;
+import com.longer.school.modle.bean.User;
 
 /**
  * Created by longer on 2017/4/28.
