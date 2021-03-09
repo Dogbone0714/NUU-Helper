@@ -175,6 +175,7 @@ public class Score_courseActivity extends AppCompatActivity implements View.OnCl
             }
         }
     }
+    /*
     protected void onResume() {
         super.onResume();
         MiStatInterface.recordPageStart(this, "正方系统_课表查询_课表详细");
@@ -183,7 +184,7 @@ public class Score_courseActivity extends AppCompatActivity implements View.OnCl
     protected void onPause() {
         super.onPause();
         MiStatInterface.recordPageEnd();
-    }
+    }*/
 }
 
 

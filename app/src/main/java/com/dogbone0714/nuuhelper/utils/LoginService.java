@@ -69,4 +69,6 @@ public class LoginService {
     }
 
 
+    public static String get_score_course_kb(String type2, String toString, String toString1, String toString2, String xy, String zy, String kb) {
+    }
 }

@@ -401,7 +401,7 @@ public class Score_zxcjActivity extends AppCompatActivity {
 //            get_score(xn, xq);
 //        }
 //    }
-
+/*
     protected void onResume() {
         super.onResume();
         MiStatInterface.recordPageStart(this, "正方系统_在校成绩");
@@ -409,6 +409,6 @@ public class Score_zxcjActivity extends AppCompatActivity {
 
     protected void onPause() {
         super.onPause();
-        MiStatInterface.recordPageEnd();
+        MiStatInterface.recordPageEnd();*/
     }
 }

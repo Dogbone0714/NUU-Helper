@@ -160,7 +160,7 @@ public class Score_xftjActivity extends AppCompatActivity {
 			
 		}
 	}
-
+/*
 	protected void onResume() {
 		super.onResume();
 		MiStatInterface.recordPageStart(this, "正方系统_学分统计");
@@ -169,5 +169,5 @@ public class Score_xftjActivity extends AppCompatActivity {
 	protected void onPause() {
 		super.onPause();
 		MiStatInterface.recordPageEnd();
-	}
+	}*/
 }

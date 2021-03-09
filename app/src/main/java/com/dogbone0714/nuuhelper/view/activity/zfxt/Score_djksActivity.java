@@ -102,7 +102,7 @@ public class Score_djksActivity extends AppCompatActivity {
 		lv.setAdapter(new ArrayAdapter<String>(this, layout.layout_score_djks, id.score_djks_tv, name));
 
 	}
-
+/*
 	protected void onResume() {
 		super.onResume();
 		MiStatInterface.recordPageStart(this, "正方系统_等级考试");
@@ -111,5 +111,5 @@ public class Score_djksActivity extends AppCompatActivity {
 	protected void onPause() {
 		super.onPause();
 		MiStatInterface.recordPageEnd();
-	}
+	}*/
 }

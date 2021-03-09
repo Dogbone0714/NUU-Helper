@@ -166,7 +166,7 @@ public class Score_zfxtActivity extends AppCompatActivity {
 		click = true;
 		intent = new Intent(context, Score_kscxActivity.class);
 		setdata();
-	}
+	}/*
 	protected void onResume() {
 		super.onResume();
 		MiStatInterface.recordPageStart(this, "正方系统");
@@ -175,5 +175,5 @@ public class Score_zfxtActivity extends AppCompatActivity {
 	protected void onPause() {
 		super.onPause();
 		MiStatInterface.recordPageEnd();
-	}
+	}*/
 }

@@ -117,7 +117,7 @@ public class Score_kbcxActivity extends AppCompatActivity implements AdapterView
         public void onClick(View v) {
             String bj = spin_bj.getSelectedItem().toString();
             if ("".equals(bj)) {
-                com.longer.school.utils.Toast.show("没有相关班级信息");
+                com.dogbone0714.nuuhelper.utils.Toast.show("没有相关班级信息");
                 return;
             }
             // 主线程获取课表
@@ -364,7 +364,7 @@ public class Score_kbcxActivity extends AppCompatActivity implements AdapterView
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
-    }
+    }/*
     protected void onResume() {
         super.onResume();
         MiStatInterface.recordPageStart(this, "正方系统_课表查询");
@@ -373,5 +373,5 @@ public class Score_kbcxActivity extends AppCompatActivity implements AdapterView
     protected void onPause() {
         super.onPause();
         MiStatInterface.recordPageEnd();
-    }
+    }*/
 }

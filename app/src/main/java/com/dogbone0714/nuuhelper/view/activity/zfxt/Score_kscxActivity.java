@@ -136,7 +136,7 @@ public class Score_kscxActivity extends AppCompatActivity {
 		
 		Log.e("11", "333");
 	}
-
+/*
 	protected void onResume() {
 		super.onResume();
 		MiStatInterface.recordPageStart(this, "正方系统_考室查询");
@@ -145,5 +145,5 @@ public class Score_kscxActivity extends AppCompatActivity {
 	protected void onPause() {
 		super.onPause();
 		MiStatInterface.recordPageEnd();
-	}
+	}*/
 }
