@@ -7,13 +7,15 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import androidx.core.app.ActivityCompat;
-import android.support.v4.app.ActivityOptionsCompat;
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,6 +32,8 @@ import com.dogbone0714.nuuhelper.utils.Toast;
 //import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import java.util.List;
+
+import static androidx.core.app.ActivityCompat.*;
 /*
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
@@ -63,7 +67,7 @@ public class Fragment_Lost extends Fragment {
         MainActivity.setToolBarVisibale(true);
         i = 8;
         setSwipe();
-        setDataCache();
+       // setDataCache();
         return view;
     }
     @Override
@@ -71,7 +75,7 @@ public class Fragment_Lost extends Fragment {
         super.onStart();
         setinter();
     }
-
+/*
     public void onResume() {
         super.onResume();
         // 在fragment中的调用用于记录页面访问信息
@@ -82,7 +86,7 @@ public class Fragment_Lost extends Fragment {
         super.onPause();
         MiStatInterface.recordPageEnd();
     }
-
+*/
     /**
      * 继承接口
      */
@@ -128,7 +132,7 @@ public class Fragment_Lost extends Fragment {
             ActivityOptionsCompat options =
                     ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity(),
                             v.findViewById(R.id.iv_lost_pic), getString(R.string.transition_lost_img));
-            intent.putExtra("Lost", lost);
+            intent.putExtra("Lost", (Parcelable) lost);
             ActivityCompat.startActivity(getActivity(), intent, options.toBundle());
         }
     };
@@ -146,16 +150,15 @@ public class Fragment_Lost extends Fragment {
             int past = linearLayoutManager_lost.findFirstCompletelyVisibleItemPosition();
             if ((visible + past) >= total) {
                 if (atbottom) {
-                    setnewData();
+                //    setnewData();
                     atbottom = false;
                 }
             }
         }
-    };
 
     /**
      * 查询数据
-     */
+     *//*
     public void setData() {
         showrefresh(true);
         BmobQuery<Lost> query = new BmobQuery<Lost>();
@@ -187,12 +190,12 @@ public class Fragment_Lost extends Fragment {
                 atbottom = true;
             }
         });
-    }
+    }*/
 
 
     /**
      * 查询数据,缓存加载，是在第一次进入界面使用
-     */
+     *//*
     public void setDataCache() {
         showrefresh(true);
         BmobQuery<Lost> query = new BmobQuery<Lost>();
@@ -224,13 +227,13 @@ public class Fragment_Lost extends Fragment {
                 atbottom = true;
             }
         });
-    }
+    }*/
 
     /**
      * 显示wsiperefresh
      *
      * @param show true 为显示
-     */
+     *//*
     private void showrefresh(final boolean show) {
         mWaveSwipeRefreshLayout.post(new Runnable() {
             @Override
@@ -252,11 +255,11 @@ public class Fragment_Lost extends Fragment {
             }
         });
     }
-
+*/
 
     /**
      * 查询更多数据
-     */
+     *//*
     public void setnewData() {
         showrefresh(true);
         BmobQuery<Lost> bmobQuery = new BmobQuery<Lost>();
@@ -298,16 +301,16 @@ public class Fragment_Lost extends Fragment {
             }
         });
     }
-
+*//*
     private void setSwipe() {
         mWaveSwipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe);
         mWaveSwipeRefreshLayout.setColorSchemeColors(Color.parseColor("#FF4081"));
         mWaveSwipeRefreshLayout.setOnRefreshListener(onRefreshListener);
     }
-
+*/
     /**
      * 下拉刷新
-     */
+     *//*
     SwipeRefreshLayout.OnRefreshListener onRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
         @Override
         public void onRefresh() {
@@ -315,9 +318,12 @@ public class Fragment_Lost extends Fragment {
                 public void run() {
                     setData();
                 }
+
+                private void setData() {
+                }
             }, 1200);
         }
-    };
+    };*/
 
     /**
      * 筛选
@@ -352,7 +358,7 @@ public class Fragment_Lost extends Fragment {
 
     /**
      * 搜索
-     */
+     *//*
     private void select() {
         final EditText editText = new EditText(context);
         editText.setHint("全部");
@@ -369,4 +375,4 @@ public class Fragment_Lost extends Fragment {
         });
         builder.create().show();
     }
-}
+}*/

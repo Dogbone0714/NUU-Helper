@@ -1,10 +1,10 @@
-
+/*
 package com.dogbone0714.nuuhelper.adapter;
 
 import android.graphics.Color;
 import androidx.cardview.widget.CardView;
-import android.support.v7.widget.RecyclerView.Adapter;
-import android.support.v7.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView.Adapter;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -97,3 +97,4 @@ public class Store_selectStoreAdapter extends Adapter<Store_selectStoreAdapter.D
     }
 
 }
+*/
