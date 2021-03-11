@@ -60,15 +60,15 @@ public class LoginService {
 
     }
 
-    public static void main(String[] args) throws HttpException, IOException {
-        login();
-    }
+    //public static void main(String[] args) throws HttpException, IOException {
+   //     login();
+  //  }
 
-    public static void main(String[] args) throws HttpException, IOException {
-        login();
-    }
+   // public static void main(String[] args) throws HttpException, IOException {
+   //     login();
+  //  }
 
 
-    public static String get_score_course_kb(String type2, String toString, String toString1, String toString2, String xy, String zy, String kb) {
-    }
+  //  public static String get_score_course_kb(String type2, String toString, String toString1, String toString2, String xy, String zy, String kb) {
+  //  }
 }

@@ -1,5 +1,5 @@
 package com.dogbone0714.nuuhelper.view.activity;
-
+/*
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -35,7 +35,7 @@ import jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout;
 /**
  * Created by Axu on 2016/9/24.
  */
-public class MyGoods_Activity extends AppCompatActivity {
+/*public class MyGoods_Activity extends AppCompatActivity {
     private Context context;
     private WaveSwipeRefreshLayout mWaveSwipeRefreshLayout;
     private RecyclerView recyclerView;
@@ -77,11 +77,11 @@ public class MyGoods_Activity extends AppCompatActivity {
         }
         setData();
     }
-
-
+*/
+/*
     /**
      * 设置滑动监听，实现上拉加载更多
-     */
+     *//*
     public RecyclerView.OnScrollListener onScrollListener = new RecyclerView.OnScrollListener() {
         @Override
         public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
@@ -96,12 +96,12 @@ public class MyGoods_Activity extends AppCompatActivity {
             }
         }
     };
-
+*/
 
     /**
      * 查询数据
      */
-    public void setData() {
+ /*   public void setData() {
         if (!mWaveSwipeRefreshLayout.isRefreshing()) {
             mWaveSwipeRefreshLayout.setRefreshing(true);
         }
@@ -133,11 +133,11 @@ public class MyGoods_Activity extends AppCompatActivity {
             }
         });
     }
-
+*/
     /**
      * 每行的单击事件
      */
-    GoodsAdapter.Itemclick itemclick = new GoodsAdapter.Itemclick() {
+  /*  GoodsAdapter.Itemclick itemclick = new GoodsAdapter.Itemclick() {
 
         public void OnItemclick(View v, int position) {
             Good good = my_goods.get(position);
@@ -145,10 +145,10 @@ public class MyGoods_Activity extends AppCompatActivity {
             intent.putExtra("Good", good);
             startActivity(intent);
         }
-    };
+    };*/
     /**
      * 下拉刷新
-     */
+     */ /*
     WaveSwipeRefreshLayout.OnRefreshListener onRefreshListener = new WaveSwipeRefreshLayout.OnRefreshListener() {
         @Override
         public void onRefresh() {
@@ -172,3 +172,4 @@ public class MyGoods_Activity extends AppCompatActivity {
 
 
 }
+*/

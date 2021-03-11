@@ -73,7 +73,7 @@ public class Fab extends FloatingActionButton implements AnimatedFab {
 			anim.setInterpolator(getInterpolator());
 			startAnimation(anim);
 		}
-		setVisibility(View.VISIBLE);
+		//setVisibility(View.VISIBLE);
 	}
 
 	/**
@@ -93,7 +93,7 @@ public class Fab extends FloatingActionButton implements AnimatedFab {
 			anim.setInterpolator(getInterpolator());
 			startAnimation(anim);
 		}
-		setVisibility(View.INVISIBLE);
+		//setVisibility(View.INVISIBLE);
 	}
 
 	private void setTranslation(float translationX, float translationY) {

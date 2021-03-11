@@ -142,7 +142,7 @@
             </LinearLayout>
 
         </LinearLayout>
-    </LinearLayout>
+    </RelativeLayout><!--
     <LinearLayout
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
@@ -152,8 +152,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="下拉关闭"
+            android:text="下拉關閉"
             android:textSize="18sp" />
     </LinearLayout>
-</RelativeLayout>
+</RelativeLayout>-->
 

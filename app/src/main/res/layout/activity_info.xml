@@ -152,7 +152,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginBottom="4dp"
-                        android:text="聯大助手開發團隊為109級資工系的3人小組"
+                        android:text="聯大助手開發團隊為109級資工系"
                         android:textColor="#7d7d7d"
                         android:textSize="14sp" />
 
@@ -182,7 +182,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="開發人員名單 ：康皓雄(康康)、陳麒然(A夢)、祈"
+                            android:text="創辦人名單 ：康皓雄(康康)、祈"
                             android:textColor="#7d7d7d"
                             android:textSize="16sp" />
 

@@ -1,5 +1,5 @@
 package com.dogbone0714.nuuhelper.view.activity;
-
+/*
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -23,11 +23,11 @@ import com.dogbone0714.nuuhelper.R;
 import com.dogbone0714.nuuhelper.utils.FileTools;
 import com.dogbone0714.nuuhelper.utils.LoginService;
 
-/* import butterknife.ButterKnife;
+import butterknife.ButterKnife;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
-import cn.bmob.v3.listener.SaveListener;  */
+import cn.bmob.v3.listener.SaveListener;
 
 public class LoginSchool_Activity extends AppCompatActivity {
 
@@ -44,22 +44,22 @@ public class LoginSchool_Activity extends AppCompatActivity {
     private final int log_false = 2;
     private final int savefish = 3;
     private final int progress = 4;
-    private final int log_error = 5;// 密码错误
-    private final int bmob_register = 6;// bmob云注册失败
-    private final int bmob_login = 7;// bmob云登录失败
+    private final int log_error = 5;// &#x5BC6;&#x7801;&#x9519;&#x8BEF;
+    private final int bmob_register = 6;// bmob&#x4E91;&#x6CE8;&#x518C;&#x5931;&#x8D25;
+    private final int bmob_login = 7;// bmob&#x4E91;&#x767B;&#x5F55;&#x5931;&#x8D25;
     private static int i = 0;
 
-    // 主线程创建消息处理器
+    // &#x4E3B;&#x7EBF;&#x7A0B;&#x521B;&#x5EFA;&#x6D88;&#x606F;&#x5904;&#x7406;&#x5668;
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case progress:
-                    tv_jiazai.setText("已经加載  " + i + "%");
+                    tv_jiazai.setText("&#x5DF2;&#x7ECF;&#x52A0;&#x8F09;  " + i + "%");
                     break;
                 case log_success:
-                    pg.dismiss();// 对话框消失
-                    Toast.makeText(context, "恭喜您登入成功  ", Toast.LENGTH_SHORT).show();
+                    pg.dismiss();// &#x5BF9;&#x8BDD;&#x6846;&#x6D88;&#x5931;
+                    Toast.makeText(context, "&#x606D;&#x559C;&#x60A8;&#x767B;&#x5165;&#x6210;&#x529F;  ", Toast.LENGTH_SHORT).show();
                     tv_jiazai.setVisibility(View.VISIBLE);
                     pb.setVisibility(View.VISIBLE);
                     break;
@@ -67,19 +67,19 @@ public class LoginSchool_Activity extends AppCompatActivity {
                     success();
                     break;
                 case log_false:
-                    pg.dismiss();// 对话框消失
-                    Toast.makeText(context, "登入失敗", Toast.LENGTH_SHORT).show();
+                    pg.dismiss();// &#x5BF9;&#x8BDD;&#x6846;&#x6D88;&#x5931;
+                    Toast.makeText(context, "&#x767B;&#x5165;&#x5931;&#x6557;", Toast.LENGTH_SHORT).show();
                     break;
                 case log_error:
-                    pg.dismiss();// 对话框消失
-                    Toast.makeText(context, "嗨嗨~密碼錯誤", Toast.LENGTH_SHORT).show();
+                    pg.dismiss();// &#x5BF9;&#x8BDD;&#x6846;&#x6D88;&#x5931;
+                    Toast.makeText(context, "&#x55E8;&#x55E8;~&#x5BC6;&#x78BC;&#x932F;&#x8AA4;", Toast.LENGTH_SHORT).show();
                     break;
                 /* case bmob_register:
-                    Toast.makeText(context, "哎呀~注册失败了", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "&#x54CE;&#x5440;~&#x6CE8;&#x518C;&#x5931;&#x8D25;&#x4E86;", Toast.LENGTH_SHORT).show();
                     break;
                 case bmob_login:
-                    Toast.makeText(context, "哎呀~登录失败了", Toast.LENGTH_SHORT).show();
-                    break; */
+                    Toast.makeText(context, "&#x54CE;&#x5440;~&#x767B;&#x5F55;&#x5931;&#x8D25;&#x4E86;", Toast.LENGTH_SHORT).show();
+                    break;
             }
         }
     };
@@ -93,23 +93,23 @@ public class LoginSchool_Activity extends AppCompatActivity {
         finish();
 
 //        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-//        builder.setTitle("邀请您进群");
+//        builder.setTitle("&#x9080;&#x8BF7;&#x60A8;&#x8FDB;&#x7FA4;");
 //        builder.setCancelable(false);
-//        builder.setMessage("有什么问题 或 建议可以群里发聩!");
-//        builder.setPositiveButton("同意", new DialogInterface.OnClickListener() {
+//        builder.setMessage("&#x6709;&#x4EC0;&#x4E48;&#x95EE;&#x9898; &#x6216; &#x5EFA;&#x8BAE;&#x53EF;&#x4EE5;&#x7FA4;&#x91CC;&#x53D1;&#x8069;!");
+//        builder.setPositiveButton("&#x540C;&#x610F;", new DialogInterface.OnClickListener() {
 //            @Override
 //            public void onClick(DialogInterface dialog, int which) {
 //                PublicTools.joinQQGroup("drHL1h7gqcaKC-kaNohbkzos5FtH6BQo");
-                // 更改正方系统的链接为空（防止切换用户过后，还是以前用户的数据）
+                // &#x66F4;&#x6539;&#x6B63;&#x65B9;&#x7CFB;&#x7EDF;&#x7684;&#x94FE;&#x63A5;&#x4E3A;&#x7A7A;&#xFF08;&#x9632;&#x6B62;&#x5207;&#x6362;&#x7528;&#x6237;&#x8FC7;&#x540E;&#xFF0C;&#x8FD8;&#x662F;&#x4EE5;&#x524D;&#x7528;&#x6237;&#x7684;&#x6570;&#x636E;&#xFF09;
 //                MainActivity.instance.finish();
 //                startActivity(new Intent(context, MainActivity.class));
 //                finish();
 //            }
 //        });
-//        builder.setNegativeButton("拒绝", new DialogInterface.OnClickListener() {
+//        builder.setNegativeButton("&#x62D2;&#x7EDD;", new DialogInterface.OnClickListener() {
 //            @Override
 //            public void onClick(DialogInterface dialog, int which) {
-//                // 更改正方系统的链接为空（防止切换用户过后，还是以前用户的数据）
+//                // &#x66F4;&#x6539;&#x6B63;&#x65B9;&#x7CFB;&#x7EDF;&#x7684;&#x94FE;&#x63A5;&#x4E3A;&#x7A7A;&#xFF08;&#x9632;&#x6B62;&#x5207;&#x6362;&#x7528;&#x6237;&#x8FC7;&#x540E;&#xFF0C;&#x8FD8;&#x662F;&#x4EE5;&#x524D;&#x7528;&#x6237;&#x7684;&#x6570;&#x636E;&#xFF09;
 //                MainActivity.instance.finish();
 //                startActivity(new Intent(context, MainActivity.class));
 //                finish();
@@ -117,9 +117,9 @@ public class LoginSchool_Activity extends AppCompatActivity {
 //        });
 //        builder.show();
 
-
-    }
-
+/*
+    }*/
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -139,7 +139,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
 
         inti();
     }
-
+*//*
     public void inti() {
         but_login1 = (Button) findViewById(R.id.frag_but_log1);
         et_username = (EditText) findViewById(R.id.username);
@@ -160,7 +160,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
             et_password.setEnabled(false);
             but_login1.setText("註銷");
         }
-
+*/
 //        AlertDialog.Builder builder = new AlertDialog.Builder(context);
 //        builder.setTitle("邀请您进群");
 //        builder.setCancelable(false);
@@ -177,7 +177,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
 //            }
 //        });
 //        builder.show();
-    }
+   // }
 
 
     /* class RefreshListener implements View.OnClickListener {
@@ -195,8 +195,8 @@ public class LoginSchool_Activity extends AppCompatActivity {
             }
         } */
 
-        //登录
-        private void login() {
+        //登录/*
+     /*   private void login() {
             // 点击登录之后隐藏输入法
             InputMethodManager imm = (InputMethodManager) context.getApplicationContext()
                     .getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -209,7 +209,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
             pg.show();
 
             new Thread() {
-                public void run() {
+                public void run() {/*
                     String result = LoginService.login(username, password);
                     Message mes = new Message();
                     if ("error".equals(result)) {
@@ -245,7 +245,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
     /**
      * 开启线程（保存用户信息，保存20条消费记录到card.txt）
      * 之后再Bmob上注册登录
-     */
+     *//*
     public void save_info(final String username, final String password) {
         new Thread() {
             public void run() {
@@ -264,7 +264,7 @@ public class LoginSchool_Activity extends AppCompatActivity {
                 }
 
                 LoginService.getstudent(context, username, password);// 保存学生的基本信息到share
-
+*/
                 //在bmob云上注册,注册成功之后自动登录
                 //User bu = new User();
                 //bu.setUsername(username);
@@ -365,19 +365,19 @@ public class LoginSchool_Activity extends AppCompatActivity {
                         }
                     }
                 }); */
-            }
+           // }
 
-            ;
-        }.start();
-    }
-    /* protected void onResume() {
-        super.onResume();
-        MiStatInterface.recordPageStart(this, "登录界面");
-    }
 
-    protected void onPause() {
-        super.onPause();
-        MiStatInterface.recordPageEnd();
-    }
-    */
-}
+  //      }.start();
+  //  }
+  //  /* protected void onResume() {
+  //      super.onResume();
+   //     MiStatInterface.recordPageStart(this, "登录界面");
+   // }
+
+  //  protected void onPause() {
+ //       super.onPause();
+  //      MiStatInterface.recordPageEnd();
+   // }
+   // */
+//

@@ -26,21 +26,13 @@ import android.widget.TextView;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.gordonwong.materialsheetfab.MaterialSheetFab;
-import com.dogbone0714.nuuhelper.Application;
-import com.dogbone0714.nuuhelper.modle.bean.Appinfor;
-import com.dogbone0714.nuuhelper.modle.bean.Message;
-import com.dogbone0714.nuuhelper.modle.bean.User;
-import com.dogbone0714.nuuhelper.Config;
+
 import com.dogbone0714.nuuhelper.R;
-import com.dogbone0714.nuuhelper.view.fragment.Fragment_Card;
-import com.dogbone0714.nuuhelper.view.fragment.Fragment_Goods;
-import com.dogbone0714.nuuhelper.view.fragment.Fragment_Lost;
-import com.dogbone0714.nuuhelper.view.fragment.Fragment_Menu;
+
 import com.dogbone0714.nuuhelper.utils.Fab;
-import com.dogbone0714.nuuhelper.utils.FileTools;
+
 import com.dogbone0714.nuuhelper.utils.LoginService;
-import com.dogbone0714.nuuhelper.utils.PublicTools;
-import com.dogbone0714.nuuhelper.utils.Toast;
+
 import com.nineoldandroids.view.ViewHelper;
 
 import java.util.List;
@@ -65,10 +57,6 @@ public class MainActivity extends AppCompatActivity
     public static MainActivity instance = null;//暴露给其他位置关闭主界面
     private long exitTime;//记录2次返回键的时间
 
-    private Fragment_Menu fg_menu;//组界面
-    private Fragment_Card fg_card;//一卡通界面
-    private Fragment_Goods fg_good;//跳蚤市场
-    private Fragment_Lost fg_lost;//失物招领
 
     private OnFabClickedListener onFabClickedListener;//查询接口
 //    private OnFabClickedListener2 onFabClickedListener2;//筛选接口
@@ -79,19 +67,19 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(Application.theme);
+
         setContentView(R.layout.activity_main);
         instance = MainActivity.this;
         context = MainActivity.this;
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("");
         setSupportActionBar(toolbar);
-        showfragmenu();
-        setFab();
-        setbottom();
+
+
+
         init();
-        bmob_checkup();//检查更新
-        check_message();//检查有没有系统消息
+
+
         //如果点击了消费记录通知，跳转到消费记录界面
         bottomNavigation.setCurrentItem(getIntent().getIntExtra("it", 0));
     }
@@ -99,27 +87,7 @@ public class MainActivity extends AppCompatActivity
     /**
      * 检查有没有系统消息
      */
-    private void check_message() {
-        BmobQuery<Message> bmobQuery = new BmobQuery<Message>();
-        bmobQuery.order("-updatedAt");
-        bmobQuery.setLimit(1);//我们只需要第一条消息
-        bmobQuery.findObjects(new FindListener<Message>() {
-            @Override
-            public void done(List<Message> list, BmobException e) {
-                if (e == null) {
-                    //如果得到的id 不等于我们之前保存过得而id 那么就显示出来
-                    String id = list.get(0).getObjectId();
-                    String id_share = FileTools.getshareString("message");
-                    if (list.get(0).isShow() && !id.equals(id_share)) {
-                        showMessage(id, list.get(0).getInfor());
-                    }
-                } else {
-                    Log.d("info_activity", "没有发现新消息或者出异常了");
-                }
-            }
-        });
 
-    }
 
     /**
      * 显示消息,确定后保存id
@@ -129,32 +97,18 @@ public class MainActivity extends AppCompatActivity
         builder.setTitle("系统提示");
         builder.setCancelable(true);
         builder.setMessage(mes);
-        builder.setPositiveButton("朕已阅", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                FileTools.saveshareString("message", id);
-            }
-        });
+
         builder.show();
     }
 
     /**
      * 默认加载主界面
      */
-    private void showfragmenu() {
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-//        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        if (fg_menu == null) {
-            fg_menu = new Fragment_Menu();
-            ft.add(R.id.content, fg_menu);
-        }
-        ft.show(fg_menu);
-        ft.commit();
-    }
+
 
     public void init() {
         tv_title = (TextView) findViewById(R.id.tv_title);
-        tv_title.setText("成都工业学院");
+        tv_title.setText("國立聯合大學");
 
 //        tv_gg = (TextView) findViewById(R.id.tv_goods_gg);
 //        tv_gg.setVisibility(View.GONE);
@@ -170,7 +124,7 @@ public class MainActivity extends AppCompatActivity
         View headerView = navigationView.getHeaderView(0);
         TextView tv_name = (TextView) headerView.findViewById(R.id.tv_menu_name);
         TextView tv_class = (TextView) headerView.findViewById(R.id.tv_menu_class);
-        String str = FileTools.getshare(this, "login");
+        /*String str = FileTools.getshare(this, "login");
         if ("true".equals(str)) {// 表示已经成功登录过
             tv_class.setText(FileTools.getshareString("banji"));
             tv_name.setText(FileTools.getshareString("name"));
@@ -183,7 +137,7 @@ public class MainActivity extends AppCompatActivity
                 Log.d("tip", "缓存账户为空自动登录");
                 LoginService.loginbmob(FileTools.getshareString("username"), FileTools.getshareString("password"));
             }
-        }
+        }*/
         drawer.addDrawerListener(drawerListener);
 
         bottomSheetBehavior = BottomSheetBehavior.from(findViewById(R.id.tab_layout));
@@ -200,23 +154,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    /**
-     * 设置FlotingButton
-     */
-    private void setFab() {
-        fab = (Fab) findViewById(R.id.fab);
-        View sheetView = findViewById(R.id.fab_sheet);
-        View overlay = findViewById(R.id.overlay);
-        int sheetColor = R.color.colorPrimary;
-        int fabColor = R.color.colorAccent;
 
-        materialSheetFab = new MaterialSheetFab<>(fab, sheetView, overlay, sheetColor, fabColor);
-        findViewById(R.id.fab_goods_fb).setOnClickListener(listener_fb);
-        findViewById(R.id.fab_goods_select).setOnClickListener(listener_cx);
-//        findViewById(R.id.fab_goods_sx).setOnClickListener(listener_sx);
-        findViewById(R.id.fab_goods_my).setOnClickListener(listener_my);
-        fab.hide();
-    }
 
     //接口，  0：商品查询  1：失物查询
     public interface OnFabClickedListener {
@@ -276,42 +214,8 @@ public class MainActivity extends AppCompatActivity
 //        this.onFabClickedListener2 = fabClickedListener;
 //    }
 
-    /**
-     * fab 的发布 点击事件
-     */
-    View.OnClickListener listener_fb = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            materialSheetFab.hideSheet();
-            if (!checkupload()) {
-                return;
-            }
-            int i = bottomNavigation.getCurrentItem();
-            if (i == 1) {
-                startActivity(new Intent(context, Add_goodsActivity.class));
-            } else if (i == 2) {
-                startActivity(new Intent(context, Add_lostActivity.class));
-            }
-        }
-    };
-    /**
-     * fab 的个人中心 点击事件
-     */
-    View.OnClickListener listener_my = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            materialSheetFab.hideSheet();
-            if (!checkupload()) {
-                return;
-            }
-            int i = bottomNavigation.getCurrentItem();
-            if (i == 1) {
-                startActivity(new Intent(context, MyGoods_Activity.class));
-            } else if (i == 2) {
-                startActivity(new Intent(context, MyLost_Activity.class));
-            }
-        }
-    };
+
+
 
     /**
      * 设置抽屉动画
@@ -360,8 +264,8 @@ public class MainActivity extends AppCompatActivity
      *
      * @return false 没有登录
      */
-    public boolean checkupload() {
-        String str = FileTools.getshareString("login");
+    /* public boolean checkupload() {
+
         if (!"true".equals(str)) {// 表示已经成功登录过
             Snackbar.make(bottomNavigation, "登录校园帐号才能使用", Snackbar.LENGTH_LONG).setAction("登录", new View.OnClickListener() {
                 @Override
@@ -373,7 +277,7 @@ public class MainActivity extends AppCompatActivity
         }
         return true;
     }
-
+/*
     public void setbottom() {
         bottomNavigation = (AHBottomNavigation) findViewById(R.id.bottom_navigation);
 // Create items
@@ -484,22 +388,7 @@ public class MainActivity extends AppCompatActivity
 //    }
 
     //隐藏所有的fragment
-    private void hideFragment(FragmentTransaction transaction) {
-        if (fg_menu != null) {
-            transaction.hide(fg_menu);
-        }
-//        if (fg_card != null) {
-//            transaction.hide(fg_card);
-//        }
-        if (fg_good != null) {
-            transaction.hide(fg_good);
-            fg_good = null;
-        }
-        if (fg_lost != null) {
-            transaction.hide(fg_lost);
-            fg_lost = null;
-        }
-    }
+
 
     /**
      * 点击返回按键
@@ -528,7 +417,7 @@ public class MainActivity extends AppCompatActivity
 
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             if (System.currentTimeMillis() - exitTime > 2000) {
-                Toast.show("再按一次退出");
+
                 exitTime = System.currentTimeMillis();
             } else {
                 finish();
@@ -543,20 +432,6 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.nav_user) {
-            startActivity(new Intent(context, User_Activity.class));
-        } else if (id == R.id.nav_skin) {
-            Intent intent = new Intent(context, SkinActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_set) {
-            startActivity(new Intent(context, SetActivity.class));
-        } else if (id == R.id.nav_share) {
-            PublicTools.shareapp(context);
-        } else if (id == R.id.nav_infor) {
-            startActivity(new Intent(context, Info_Activity.class));
-        } else if (id == R.id.nav_comment) {
-            PublicTools.comment(context);
-        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -588,83 +463,10 @@ public class MainActivity extends AppCompatActivity
     /**
      * 用来检查更新
      */
-    private void bmob_checkup() {
-        //如果缓存里有更新提示，我们不用再匹配服务器版本
-        String updatenow = FileTools.getshareString("updatenow");//如果为""表示没有缓存的强制更新，
-        Log.d("tip","updatenow" + updatenow);
-        if (!"".equals(updatenow)) {
-            Appinfor Appinfor = null;
-            updata(Appinfor);
-            return;
-        }
-
-        BmobQuery<Appinfor> bmobQuery = new BmobQuery<Appinfor>();
-        bmobQuery.order("-updatedAt");
-        bmobQuery.setLimit(1);//我们只需要第一条数据就可以了
-        bmobQuery.findObjects(new FindListener<Appinfor>() {
-            @Override
-            public void done(List<Appinfor> list, BmobException e) {
-                if (e == null && list != null) {
-                    Appinfor appinfor = list.get(0);
-                    //如果服务器的版本号大于客服端，提示用户升级
-                    if (appinfor.getVersion() > Config.version) {
-                        Log.d("tip", "发现新版本:" + appinfor.getVersion());
-                        updata(appinfor);
-                    }
-                } else {
-                    Log.d("info_activity", "更新出异常了(" + e.getErrorCode() + ")");
-                }
-            }
-        });
-    }
 
     /**
      * 有可用更新
      */
-    public void updata(final Appinfor appinfor) {
-        //如果新版本号等于我们忽略的版本号也不用提示用户
-        String ignoreVersion = FileTools.getshareString("ignoreVersion");
-        if (appinfor != null && !"".equals(ignoreVersion) && ignoreVersion.equals(appinfor.getVersion() + "")) {
-            Log.d("版本更新提示", "已经忽略该次更新");
-            return;
-        }
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle("发现新版本");
-        builder.setCancelable(false);
-        String message = appinfor == null ? FileTools.getshareString("newVersion_Infor") : appinfor.getInfor();
-        builder.setMessage(message);
-        builder.setPositiveButton("下载Apk", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Config.pre)));
-                System.exit(0);
-
-            }
-        });
-        builder.setNegativeButton("退出", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                System.exit(0);
-            }
-        });
-        if (appinfor != null) {
-            //我们不在通过固定的版本强制用户更新，这要会有一些bug,比如3.0版本是强制更新，但是3.1版本很快发布，如果3.1是非强制更新会造成2.*版本的用户继续使用。如果是强制更新的话又会影响3.0版本用户的体验
-            //所以我们在3.0版本使用minversion，如果低于此版本的就会强制更新
-            //最低的版本，也就是低于此版本都会强制他升级(最低版本不包含当前版本，也就是比如2.4，那么2.4版本也会强制更新)
-            if (Config.version > appinfor.getMinversion()) {
-                builder.setNeutralButton("不再提示", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        FileTools.saveshareString("ignoreVersion", appinfor.getVersion() + "");
-                    }
-                });
-            } else {//强制更新，添加本地缓存信息，防止没有网络的情况下用户无法收到更新通知
-                FileTools.saveshareString("updatenow", appinfor.getVersion() + "");
-                FileTools.saveshareString("newVersion_Infor", appinfor.getInfor());
-            }
-        }
-        builder.show();
-    }
 
 }

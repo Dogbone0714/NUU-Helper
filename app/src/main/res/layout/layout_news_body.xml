@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
-                    android:width="380"
+                    android:width="380dp"
                     android:text="國立聯合大學 _資訊工程學系\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t正在載入..." />
 
                 <TextView

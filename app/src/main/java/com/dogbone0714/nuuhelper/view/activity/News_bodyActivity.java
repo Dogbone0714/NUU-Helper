@@ -5,9 +5,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.dogbone0714.nuuhelper.Application;
+
 import com.dogbone0714.nuuhelper.R;
-import com.dogbone0714.nuuhelper.utils.PublicTools;
+
 //import com.xiaomi.mistatistic.sdk.MiStatInterface;
 
 import android.content.Context;
@@ -52,7 +52,7 @@ public class News_bodyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(Application.theme);
+
         setContentView(R.layout.layout_news_body);
         inti();
     }
@@ -123,17 +123,7 @@ public class News_bodyActivity extends AppCompatActivity {
         }.start();
     }
 
-    public void click_open(View view) {
-        PublicTools.openhtml(context,link);
-    }
 
-    protected void onResume() {
-        super.onResume();
-        MiStatInterface.recordPageStart(this, "校园新闻详细");
-    }
 
-    protected void onPause() {
-        super.onPause();
-        MiStatInterface.recordPageEnd();
-    }
+
 }
